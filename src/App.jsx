@@ -25,6 +25,11 @@ const currentMonthName = new Intl.DateTimeFormat('en', { month: 'short' }).forma
 const currentMonthIndex = new Date().getMonth();
 const lastCompletedMonthIndex = Math.max(0, currentMonthIndex - 1);
 const currentYearLabel = String(new Date().getFullYear());
+const fullDateFormatter = new Intl.DateTimeFormat('en', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+});
 
 const explicitYearStyles = {
   2024: { stroke: '#111111', fill: '#111111' },
@@ -117,6 +122,11 @@ function getYearlyComparisonData(monthRows) {
 const currentMonthRow = monthlyResolvedData.find((row) => row.name === currentMonthName);
 const currentMonthPeak = currentMonthRow ? Math.max(...years.map((year) => Number(currentMonthRow[year] || 0))) : 0;
 const defaultSelectedYear = years.includes(currentYearLabel) ? currentYearLabel : years[years.length - 1] || '';
+const latestImportedDate = issues.reduce((latestDate, issue) => {
+  const issueDate = issue.resolvedDate || issue.createdDate;
+  if (!issueDate) return latestDate;
+  return !latestDate || issueDate > latestDate ? issueDate : latestDate;
+}, null);
 
 function CurrentMonthBadge({ compact = false }) {
   return (
@@ -208,7 +218,7 @@ class ErrorBoundary extends Component {
 
 function Dashboard() {
   const [selectedYear, setSelectedYear] = useState(defaultSelectedYear);
-  const [selectedMonth, setSelectedMonth] = useState(lastCompletedMonthIndex);
+  const [selectedMonth, setSelectedMonth] = useState(currentMonthIndex);
   const [monthRange, setMonthRange] = useState('all');
 
   const displayedMonthlyResolvedData = useMemo(() => {
@@ -273,7 +283,8 @@ function Dashboard() {
                   noticeTitle={`${issues.length.toLocaleString()} total issues imported`}
                   noticeTitleTag="h2"
                 >
-                  Imported from issues.json.
+                  Imported from issues.json
+                  {latestImportedDate ? ` through ${fullDateFormatter.format(latestImportedDate)}.` : '.'}
                 </GcdsNotice>
               </div>
             </section>

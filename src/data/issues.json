@@ -1,5 +1,333 @@
 [
   {
+    "Summary": "Removal - My GCPay web alert",
+    "Issue key": "CSPAYWEB-4776",
+    "Priority": "Medium",
+    "Created": "6/19/2026 12:10",
+    "Resolved": "6/19/2026 13:27",
+    "Component/s": "CWA"
+  },
+  {
+    "Summary": "FOR CODING] Pay system service interruption - June 26-29",
+    "Issue key": "CSPAYWEB-4775",
+    "Priority": "Urgent",
+    "Created": "6/19/2026 9:05",
+    "Resolved": "6/22/2026 7:57",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "[FOR CODING] - My GCPay web alert",
+    "Issue key": "CSPAYWEB-4772",
+    "Priority": "Urgent",
+    "Created": "6/18/2026 8:43",
+    "Resolved": "6/18/2026 10:22",
+    "Component/s": ""
+  },
+  {
+    "Summary": "Dev link request : Exceptions",
+    "Issue key": "CSPAYWEB-4770",
+    "Priority": "Medium",
+    "Created": "6/17/2026 8:38",
+    "Resolved": "6/18/2026 14:18",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Filterable list to be updated",
+    "Issue key": "CSPAYWEB-4769",
+    "Priority": "Medium",
+    "Created": "6/16/2026 13:28",
+    "Resolved": "6/18/2026 9:58",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "ER1028 URGENT: Timekeeper information guide",
+    "Issue key": "CSPAYWEB-4768",
+    "Priority": "Urgent",
+    "Created": "6/16/2026 12:56",
+    "Resolved": "6/16/2026 13:55",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Small Procedure Update - Reporting leave without pay for 5 days or less in Phoenix and MyGCHR",
+    "Issue key": "CSPAYWEB-4767",
+    "Priority": "Medium",
+    "Created": "6/16/2026 9:38",
+    "Resolved": "6/17/2026 7:25",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Content management - bundle CM 11 - comms to delete from GCintranet",
+    "Issue key": "CSPAYWEB-4766",
+    "Priority": "Medium",
+    "Created": "6/16/2026 8:55",
+    "Resolved": "6/22/2026 9:03",
+    "Component/s": "Tech Comms"
+  },
+  {
+    "Summary": "Procedure Update Request - Approve on-cycle payroll",
+    "Issue key": "CSPAYWEB-4764",
+    "Priority": "Medium",
+    "Created": "6/15/2026 11:38",
+    "Resolved": "6/15/2026 13:34",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "PPIM - 6.2",
+    "Issue key": "CSPAYWEB-4760",
+    "Priority": "Medium",
+    "Created": "6/15/2026 9:20",
+    "Resolved": "6/15/2026 13:13",
+    "Component/s": "PPIM"
+  },
+  {
+    "Summary": "PPIM - 6.1",
+    "Issue key": "CSPAYWEB-4759",
+    "Priority": "Medium",
+    "Created": "6/15/2026 9:19",
+    "Resolved": "6/15/2026 13:14",
+    "Component/s": "PPIM"
+  },
+  {
+    "Summary": "FW: Correction des URL – portail de pension",
+    "Issue key": "CSPAYWEB-4758",
+    "Priority": "High",
+    "Created": "6/12/2026 14:10",
+    "Resolved": "6/12/2026 14:33",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Request for NPSW poster",
+    "Issue key": "CSPAYWEB-4757",
+    "Priority": "High",
+    "Created": "6/12/2026 12:00",
+    "Resolved": "6/12/2026 14:37",
+    "Component/s": "Graphic Design"
+  },
+  {
+    "Summary": "PPIM - 5.14",
+    "Issue key": "CSPAYWEB-4743",
+    "Priority": "Medium",
+    "Created": "6/12/2026 9:57",
+    "Resolved": "6/18/2026 10:17",
+    "Component/s": "PPIM"
+  },
+  {
+    "Summary": "PPIM - 4.4.88",
+    "Issue key": "CSPAYWEB-4740",
+    "Priority": "Medium",
+    "Created": "6/12/2026 9:53",
+    "Resolved": "6/15/2026 13:10",
+    "Component/s": "PPIM"
+  },
+  {
+    "Summary": "[FOR CODING] - My GC Pension web alert",
+    "Issue key": "CSPAYWEB-4737",
+    "Priority": "High",
+    "Created": "6/11/2026 10:39",
+    "Resolved": "6/11/2026 14:43",
+    "Component/s": "Tech Comms"
+  },
+  {
+    "Summary": "*FOR WEB CODING | TECHNICAL COMMUNICATIONS - Bundle # 9",
+    "Issue key": "CSPAYWEB-4736",
+    "Priority": "Medium",
+    "Created": "6/11/2026 9:11",
+    "Resolved": "6/15/2026 8:51",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "May Infographic",
+    "Issue key": "CSPAYWEB-4735",
+    "Priority": "Medium",
+    "Created": "6/10/2026 16:06",
+    "Resolved": "6/11/2026 12:56",
+    "Component/s": "Graphic Design"
+  },
+  {
+    "Summary": "FOR CODING  - New Public Service Management Insurance Plan form",
+    "Issue key": "CSPAYWEB-4729",
+    "Priority": "Medium",
+    "Created": "6/10/2026 10:47",
+    "Resolved": "6/19/2026 14:43",
+    "Component/s": "Tech Comms"
+  },
+  {
+    "Summary": "ER1334: Automated salary calculation error messages",
+    "Issue key": "CSPAYWEB-4728",
+    "Priority": "High",
+    "Created": "6/10/2026 10:19",
+    "Resolved": "6/17/2026 8:34",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Dates for update in French Tech Comms pages",
+    "Issue key": "CSPAYWEB-4727",
+    "Priority": "Medium",
+    "Created": "6/10/2026 10:13",
+    "Resolved": "6/11/2026 11:30",
+    "Component/s": "Tech Comms"
+  },
+  {
+    "Summary": "For coding: Web alert - Discontinuation of release notes",
+    "Issue key": "CSPAYWEB-4725",
+    "Priority": "Urgent",
+    "Created": "6/10/2026 8:04",
+    "Resolved": "6/10/2026 9:29",
+    "Component/s": "Tech Comms"
+  },
+  {
+    "Summary": "Procedure Update Request - Recording an emergency salary advance or a priority payment in Phoenix",
+    "Issue key": "CSPAYWEB-4724",
+    "Priority": "High",
+    "Created": "6/9/2026 14:18",
+    "Resolved": "6/15/2026 8:53",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Manual pay equity interest calculation tool",
+    "Issue key": "CSPAYWEB-4723",
+    "Priority": "Medium",
+    "Created": "6/9/2026 10:14",
+    "Resolved": "6/12/2026 10:27",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Sec 33 notice for coding under Friday, June 12",
+    "Issue key": "CSPAYWEB-4720",
+    "Priority": "Medium",
+    "Created": "6/8/2026 13:40",
+    "Resolved": "6/12/2026 10:51",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Small hover text update - Union dues deduction checklist - Prior to E226 Union dues automation",
+    "Issue key": "CSPAYWEB-4718",
+    "Priority": "Medium",
+    "Created": "6/8/2026 8:34",
+    "Resolved": "6/10/2026 10:33",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "JIRA#4715 IAM Update Request – Chapter 6, Sections 6.2.1",
+    "Issue key": "CSPAYWEB-4717",
+    "Priority": "Medium",
+    "Created": "6/8/2026 7:56",
+    "Resolved": "6/16/2026 10:15",
+    "Component/s": ""
+  },
+  {
+    "Summary": "Devlink request : Rejected by payroll transactions - Actions required by employees, section 34 managers, timekeepers and section 33 authorizers",
+    "Issue key": "CSPAYWEB-4714",
+    "Priority": "Medium",
+    "Created": "6/5/2026 9:22",
+    "Resolved": "6/11/2026 13:34",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "devlink request: Payable status Job aid",
+    "Issue key": "CSPAYWEB-4713",
+    "Priority": "Medium",
+    "Created": "6/5/2026 7:53",
+    "Resolved": "6/11/2026 13:34",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Devlink request: Time and labour process overview for section 34 managers and timekeepers using Phoenix Self-Service",
+    "Issue key": "CSPAYWEB-4712",
+    "Priority": "Medium",
+    "Created": "6/4/2026 14:55",
+    "Resolved": "6/11/2026 13:30",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "TR: *FOR LS TRANSLATION* | TECHNICAL COMMUNICATIONS - Bundle #8",
+    "Issue key": "CSPAYWEB-4709",
+    "Priority": "High",
+    "Created": "6/4/2026 13:34",
+    "Resolved": "6/10/2026 7:57",
+    "Component/s": "Tech Comms"
+  },
+  {
+    "Summary": "Devlink request: Timekeeper information guide",
+    "Issue key": "CSPAYWEB-4708",
+    "Priority": "Medium",
+    "Created": "6/4/2026 9:48",
+    "Resolved": "6/11/2026 13:29",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Devlink request : Tips for section 33 authorizers in Phoenix",
+    "Issue key": "CSPAYWEB-4707",
+    "Priority": "Medium",
+    "Created": "6/4/2026 9:38",
+    "Resolved": "6/11/2026 13:27",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Devlink request: Phoenix for managers: Worklists",
+    "Issue key": "CSPAYWEB-4706",
+    "Priority": "Medium",
+    "Created": "6/4/2026 9:34",
+    "Resolved": "6/11/2026 13:23",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Devlink request : Phoenix for managers: Reviews and approvals",
+    "Issue key": "CSPAYWEB-4705",
+    "Priority": "Medium",
+    "Created": "6/4/2026 9:25",
+    "Resolved": "6/11/2026 13:25",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Request for devlink: Phoenix for managers: Employees without access to Phoenix self-service",
+    "Issue key": "CSPAYWEB-4704",
+    "Priority": "Medium",
+    "Created": "6/4/2026 9:13",
+    "Resolved": "6/11/2026 13:20",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Request for Devlink : Phoenix bi-weekly pay cycle",
+    "Issue key": "CSPAYWEB-4703",
+    "Priority": "Medium",
+    "Created": "6/4/2026 9:09",
+    "Resolved": "6/11/2026 13:19",
+    "Component/s": ""
+  },
+  {
+    "Summary": "FW: (Inquiry #26-3089)CA benefit letters - errors",
+    "Issue key": "CSPAYWEB-4702",
+    "Priority": "Urgent",
+    "Created": "6/4/2026 8:55",
+    "Resolved": "6/4/2026 13:30",
+    "Component/s": "Benefit Letters"
+  },
+  {
+    "Summary": "IAM Update request 4.17.1",
+    "Issue key": "CSPAYWEB-4700",
+    "Priority": "Medium",
+    "Created": "6/2/2026 9:44",
+    "Resolved": "6/2/2026 11:17",
+    "Component/s": "IAM"
+  },
+  {
+    "Summary": "Procedure Update Request - Approve off-cycle payroll",
+    "Issue key": "CSPAYWEB-4699",
+    "Priority": "Urgent",
+    "Created": "6/2/2026 9:36",
+    "Resolved": "6/12/2026 8:11",
+    "Component/s": "Procedures"
+  },
+  {
+    "Summary": "Procedure Update Request - Key actions for section 33 authorizers",
+    "Issue key": "CSPAYWEB-4697",
+    "Priority": "Urgent",
+    "Created": "6/1/2026 7:44",
+    "Resolved": "6/12/2026 9:51",
+    "Component/s": "Procedures"
+  },
+  {
     "Summary": "For action - Procedures lifecycle - EOD",
     "Issue key": "CSPAYWEB-4698",
     "Created": "6/1/2026 11:10",
@@ -581,14 +909,14 @@
     "Component/s": "PRIBs"
   },
   {
-    "Summary": "[AMENDMENT REQUEST]  FW: 2025-079 –  (HOC) Page Services Group PRIB Amendment Request",
+    "Summary": "[AMENDMENT REQUEST]  FW: 2025-079 â€“  (HOC) Page Services Group PRIB Amendment Request",
     "Issue key": "CSPAYWEB-4431",
     "Created": "5/11/2026 15:10",
     "Resolved": "5/14/2026 9:15",
     "Component/s": "PRIBs"
   },
   {
-    "Summary": "[AMENDMENT REQUEST]  FW: PRIB Amendment Request - 2025-130 –  (HOC) (PSG & OSG)",
+    "Summary": "[AMENDMENT REQUEST]  FW: PRIB Amendment Request - 2025-130 â€“  (HOC) (PSG & OSG)",
     "Issue key": "CSPAYWEB-4430",
     "Created": "5/11/2026 14:59",
     "Resolved": "5/14/2026 9:16",
@@ -700,7 +1028,7 @@
     "Component/s": "Procedures"
   },
   {
-    "Summary": "Update to the insurer’s name in PSHCP products",
+    "Summary": "Update to the insurerâ€™s name in PSHCP products",
     "Issue key": "CSPAYWEB-4411",
     "Created": "5/6/2026 11:16",
     "Resolved": "5/8/2026 13:17",
@@ -798,7 +1126,7 @@
     "Component/s": "Tech Comms"
   },
   {
-    "Summary": "IAM/ARA Update Request – Chapter 5, Sections 5.4.5",
+    "Summary": "IAM/ARA Update Request â€“ Chapter 5, Sections 5.4.5",
     "Issue key": "CSPAYWEB-4397",
     "Created": "5/4/2026 16:46",
     "Resolved": "5/19/2026 11:28",
