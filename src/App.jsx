@@ -21,8 +21,10 @@ import Header from './Header.jsx';
 import issuesData from './data/issues.json';
 
 const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const quarterNames = ['Q1', 'Q2', 'Q3', 'Q4'];
 const currentMonthName = new Intl.DateTimeFormat('en', { month: 'short' }).format(new Date());
 const currentMonthIndex = new Date().getMonth();
+const currentQuarterIndex = Math.floor(currentMonthIndex / 3);
 const lastCompletedMonthIndex = Math.max(0, currentMonthIndex - 1);
 const currentYearLabel = String(new Date().getFullYear());
 const fullDateFormatter = new Intl.DateTimeFormat('en', {
@@ -100,12 +102,31 @@ const monthlyResolvedData = monthNames.map((month, monthIndex) => {
   return row;
 });
 
-function getYearlyComparisonData(monthRows) {
+const quarterlyResolvedData = quarterNames.map((quarter, quarterIndex) => {
+  const row = { name: quarter };
+  const quarterStartMonth = quarterIndex * 3;
+  const quarterEndMonth = quarterStartMonth + 2;
+
+  years.forEach((year) => {
+    row[year] = resolvedIssues.filter((issue) => {
+      const resolvedMonth = issue.resolvedDate.getMonth();
+      return (
+        issue.resolvedDate.getFullYear() === Number(year) &&
+        resolvedMonth >= quarterStartMonth &&
+        resolvedMonth <= quarterEndMonth
+      );
+    }).length;
+  });
+
+  return row;
+});
+
+function getYearlyComparisonData(periodRows) {
   return years.map((year, index) => {
-    const tickets = monthRows.reduce((sum, month) => sum + Number(month[year] || 0), 0);
+    const tickets = periodRows.reduce((sum, period) => sum + Number(period[year] || 0), 0);
     const previousYear = years[index - 1];
     const previousTickets = previousYear
-      ? monthRows.reduce((sum, month) => sum + Number(month[previousYear] || 0), 0)
+      ? periodRows.reduce((sum, period) => sum + Number(period[previousYear] || 0), 0)
       : 0;
     const percentChange =
       previousTickets > 0 ? Math.round(((tickets - previousTickets) / previousTickets) * 100) : null;
@@ -117,6 +138,14 @@ function getYearlyComparisonData(monthRows) {
       previousYear,
     };
   });
+}
+
+function getQuarterMonthRange(quarterIndex) {
+  const startMonth = quarterIndex * 3;
+  return {
+    startMonth,
+    endMonth: startMonth + 2,
+  };
 }
 
 const currentMonthRow = monthlyResolvedData.find((row) => row.name === currentMonthName);
@@ -192,6 +221,68 @@ function YearComparisonCard({ entry }) {
   );
 }
 
+function QuarterlyOverviewChart({ data }) {
+  return (
+    <div className="quarterly-overview" aria-label="Quarterly completed tickets overview">
+      <div className="quarterly-overview__title">Tickets Overview</div>
+      <div className="chart-frame chart-frame--quarterly">
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart data={data} margin={{ top: 18, right: 24, left: 8, bottom: 34 }}>
+            <CartesianGrid stroke="#d6d7d9" vertical={false} />
+            <XAxis
+              dataKey="name"
+              tickLine={false}
+              axisLine={false}
+              tick={{ fill: '#4b5563' }}
+              label={{ value: 'Quarter', position: 'insideBottom', offset: -12, fill: '#4b5563' }}
+            />
+            <YAxis
+              tickLine={false}
+              axisLine={false}
+              tick={{ fill: '#4b5563' }}
+              label={{ value: 'Ticket Count', angle: -90, position: 'insideLeft', fill: '#4b5563' }}
+            />
+            <Tooltip content={<ChartTooltip />} />
+            {years.map((year) => (
+              <Bar key={year} dataKey={year} name={year} fill={yearStyles[year].stroke} radius={[2, 2, 0, 0]} />
+            ))}
+          </BarChart>
+        </ResponsiveContainer>
+      </div>
+
+      <div className="quarterly-data-table" aria-label="Quarterly completed ticket counts by year">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Year</th>
+              {quarterNames.map((quarter) => (
+                <th key={quarter} scope="col">
+                  {quarter}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {years.map((year) => (
+              <tr key={year}>
+                <th scope="row">
+                  <span className="quarterly-data-table__label">
+                    <span style={{ backgroundColor: yearStyles[year].stroke }} />
+                    {year}
+                  </span>
+                </th>
+                {data.map((quarter) => (
+                  <td key={`${year}-${quarter.name}`}>{Number(quarter[year] || 0).toLocaleString()}</td>
+                ))}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 class ErrorBoundary extends Component {
   constructor(props) {
     super(props);
@@ -219,37 +310,56 @@ class ErrorBoundary extends Component {
 function Dashboard() {
   const [selectedYear, setSelectedYear] = useState(defaultSelectedYear);
   const [selectedMonth, setSelectedMonth] = useState(currentMonthIndex);
-  const [monthRange, setMonthRange] = useState('all');
+  const [selectedQuarter, setSelectedQuarter] = useState(currentQuarterIndex);
+  const [componentPeriod, setComponentPeriod] = useState('month');
+  const [chartView, setChartView] = useState('monthly');
 
-  const displayedMonthlyResolvedData = useMemo(() => {
-    if (monthRange === 'passed') {
+  const displayedResolvedData = useMemo(() => {
+    if (chartView === 'completed') {
       return monthlyResolvedData.slice(0, lastCompletedMonthIndex + 1);
     }
 
+    if (chartView === 'quarterly') {
+      return quarterlyResolvedData;
+    }
+
     return monthlyResolvedData;
-  }, [monthRange]);
+  }, [chartView]);
 
   const displayedYearlyComparisonData = useMemo(
-    () => getYearlyComparisonData(displayedMonthlyResolvedData),
-    [displayedMonthlyResolvedData],
+    () => getYearlyComparisonData(displayedResolvedData),
+    [displayedResolvedData],
   );
 
-  const showCurrentMonthPin = monthRange === 'all' && currentMonthRow;
+  const showCurrentMonthPin = chartView === 'monthly' && currentMonthRow;
+
+  const selectedComponentPeriodLabel =
+    componentPeriod === 'quarter'
+      ? `${quarterNames[selectedQuarter]} ${selectedYear}`
+      : `${monthNames[selectedMonth]} ${selectedYear}`;
 
   const selectedComponentData = useMemo(() => {
     return Object.entries(
       countBy(
-        resolvedIssues.filter(
-          (issue) =>
-            issue.resolvedDate.getFullYear() === Number(selectedYear) &&
-            issue.resolvedDate.getMonth() === Number(selectedMonth),
-        ),
+        resolvedIssues.filter((issue) => {
+          if (issue.resolvedDate.getFullYear() !== Number(selectedYear)) {
+            return false;
+          }
+
+          if (componentPeriod === 'quarter') {
+            const { startMonth, endMonth } = getQuarterMonthRange(selectedQuarter);
+            const resolvedMonth = issue.resolvedDate.getMonth();
+            return resolvedMonth >= startMonth && resolvedMonth <= endMonth;
+          }
+
+          return issue.resolvedDate.getMonth() === Number(selectedMonth);
+        }),
         (issue) => issue.component,
       ),
     )
       .map(([name, value]) => ({ name, value }))
       .sort((a, b) => b.value - a.value);
-  }, [selectedMonth, selectedYear]);
+  }, [componentPeriod, selectedMonth, selectedQuarter, selectedYear]);
 
   const selectedMonthTotal = selectedComponentData.reduce((sum, component) => sum + component.value, 0);
   const selectedComponentPieData = useMemo(() => {
@@ -302,67 +412,77 @@ function Dashboard() {
                     <GcdsHeading tag="h2" marginTop="0" marginBottom="0">
                       Monthly Completed Tickets
                     </GcdsHeading>
-                    <p>Grouped by completed date and year.</p>
+                    <p>Grouped by completed date, quarter, and year.</p>
                   </div>
-                  <button
-                    className={`range-switch ${monthRange === 'passed' ? 'is-active' : ''}`}
-                    type="button"
-                    role="switch"
-                    aria-checked={monthRange === 'passed'}
-                    aria-label={`Monthly completed tickets view is ${
-                      monthRange === 'all' ? 'year view' : 'completed months'
-                    }`}
-                    onClick={() => setMonthRange((current) => (current === 'all' ? 'passed' : 'all'))}
-                  >
-                    <span className={`range-switch__label ${monthRange === 'all' ? 'is-selected' : ''}`}>
-                      Year view
-                    </span>
-                    <span className="range-switch__track">
-                      <span className="range-switch__thumb" />
-                    </span>
-                    <span className={`range-switch__label ${monthRange === 'passed' ? 'is-selected' : ''}`}>
-                      Completed month
-                    </span>
-                  </button>
+                  <div className="range-tabs" role="group" aria-label="Completed tickets chart view">
+                    <button
+                      className={chartView === 'monthly' ? 'is-selected' : ''}
+                      type="button"
+                      aria-pressed={chartView === 'monthly'}
+                      onClick={() => setChartView('monthly')}
+                    >
+                      Monthly
+                    </button>
+                    <button
+                      className={chartView === 'completed' ? 'is-selected' : ''}
+                      type="button"
+                      aria-pressed={chartView === 'completed'}
+                      onClick={() => setChartView('completed')}
+                    >
+                      Completed months
+                    </button>
+                    <button
+                      className={chartView === 'quarterly' ? 'is-selected' : ''}
+                      type="button"
+                      aria-pressed={chartView === 'quarterly'}
+                      onClick={() => setChartView('quarterly')}
+                    >
+                      Quarterly
+                    </button>
+                  </div>
                 </div>
-                <div className="chart-frame chart-frame--large">
-                  <ResponsiveContainer width="100%" height="100%">
-                    <AreaChart data={displayedMonthlyResolvedData} margin={{ top: 18, right: 28, left: 4, bottom: 8 }}>
-                      <defs>
+                {chartView === 'quarterly' ? (
+                  <QuarterlyOverviewChart data={displayedResolvedData} />
+                ) : (
+                  <div className="chart-frame chart-frame--large">
+                    <ResponsiveContainer width="100%" height="100%">
+                      <AreaChart data={displayedResolvedData} margin={{ top: 18, right: 28, left: 4, bottom: 8 }}>
+                        <defs>
+                          {years.map((year) => (
+                            <linearGradient key={year} id={`fill-${year}`} x1="0" y1="0" x2="0" y2="1">
+                              <stop offset="5%" stopColor={yearStyles[year].fill} stopOpacity={0.28} />
+                              <stop offset="95%" stopColor={yearStyles[year].fill} stopOpacity={0.03} />
+                            </linearGradient>
+                          ))}
+                        </defs>
+                        <CartesianGrid strokeDasharray="3 3" stroke="#d6d7d9" />
+                        <XAxis dataKey="name" tickLine={false} axisLine={false} tick={{ fill: '#4b5563' }} />
+                        <YAxis tickLine={false} axisLine={false} tick={{ fill: '#4b5563' }} />
+                        <Tooltip content={<ChartTooltip />} />
+                        <Legend wrapperStyle={{ paddingTop: 16 }} />
+                        {showCurrentMonthPin && (
+                          <ReferenceDot
+                            x={currentMonthName}
+                            y={currentMonthPeak}
+                            shape={<CurrentMonthPin />}
+                            ifOverflow="visible"
+                          />
+                        )}
                         {years.map((year) => (
-                          <linearGradient key={year} id={`fill-${year}`} x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="5%" stopColor={yearStyles[year].fill} stopOpacity={0.28} />
-                            <stop offset="95%" stopColor={yearStyles[year].fill} stopOpacity={0.03} />
-                          </linearGradient>
+                          <Area
+                            key={year}
+                            type="monotone"
+                            dataKey={year}
+                            name={year}
+                            stroke={yearStyles[year].stroke}
+                            fill={`url(#fill-${year})`}
+                            strokeWidth={3}
+                          />
                         ))}
-                      </defs>
-                      <CartesianGrid strokeDasharray="3 3" stroke="#d6d7d9" />
-                      <XAxis dataKey="name" tickLine={false} axisLine={false} tick={{ fill: '#4b5563' }} />
-                      <YAxis tickLine={false} axisLine={false} tick={{ fill: '#4b5563' }} />
-                      <Tooltip content={<ChartTooltip />} />
-                      <Legend wrapperStyle={{ paddingTop: 16 }} />
-                      {showCurrentMonthPin && (
-                        <ReferenceDot
-                          x={currentMonthName}
-                          y={currentMonthPeak}
-                          shape={<CurrentMonthPin />}
-                          ifOverflow="visible"
-                        />
-                      )}
-                      {years.map((year) => (
-                        <Area
-                          key={year}
-                          type="monotone"
-                          dataKey={year}
-                          name={year}
-                          stroke={yearStyles[year].stroke}
-                          fill={`url(#fill-${year})`}
-                          strokeWidth={3}
-                        />
-                      ))}
-                    </AreaChart>
-                  </ResponsiveContainer>
-                </div>
+                      </AreaChart>
+                    </ResponsiveContainer>
+                  </div>
+                )}
               </article>
             </section>
 
@@ -373,13 +493,13 @@ function Dashboard() {
               <div className="panel-heading">
                 <div>
                   <GcdsHeading tag="h2" marginTop="0" marginBottom="0">
-                    Component Popularity by Month
+                    Component Popularity by Period
                   </GcdsHeading>
                   <p id="month-drilldown-heading">
-                    Select a completed month and year to see component type popularity and counts.
+                    Select a completed month or quarter and year to see component type popularity and counts.
                   </p>
                   <p className="print-only">
-                    Component popularity for {monthNames[selectedMonth]} {selectedYear}
+                    Component popularity for {selectedComponentPeriodLabel}
                   </p>
                 </div>
               </div>
@@ -435,13 +555,34 @@ function Dashboard() {
                     </>
                   ) : (
                     <p className="empty-state empty-state--chart">
-                      No completed tickets found for {monthNames[selectedMonth]} {selectedYear}.
+                      No completed tickets found for {selectedComponentPeriodLabel}.
                     </p>
                   )}
                 </div>
 
                 <div className="drilldown-table-panel">
                   <div className="drilldown-controls" aria-label="Month detail filters">
+                    <div className="period-control">
+                      <span>Period</span>
+                      <div className="range-tabs range-tabs--compact" role="group" aria-label="Component period">
+                        <button
+                          className={componentPeriod === 'month' ? 'is-selected' : ''}
+                          type="button"
+                          aria-pressed={componentPeriod === 'month'}
+                          onClick={() => setComponentPeriod('month')}
+                        >
+                          Month
+                        </button>
+                        <button
+                          className={componentPeriod === 'quarter' ? 'is-selected' : ''}
+                          type="button"
+                          aria-pressed={componentPeriod === 'quarter'}
+                          onClick={() => setComponentPeriod('quarter')}
+                        >
+                          Quarter
+                        </button>
+                      </div>
+                    </div>
                     <label>
                       <span>Year</span>
                       <select value={selectedYear} onChange={(event) => setSelectedYear(event.target.value)}>
@@ -452,19 +593,35 @@ function Dashboard() {
                         ))}
                       </select>
                     </label>
-                    <label>
-                      <span>Month</span>
-                      <select
-                        value={selectedMonth}
-                        onChange={(event) => setSelectedMonth(Number(event.target.value))}
-                      >
-                        {monthNames.map((month, index) => (
-                          <option key={month} value={index}>
-                            {month}
-                          </option>
-                        ))}
-                      </select>
-                    </label>
+                    {componentPeriod === 'quarter' ? (
+                      <label>
+                        <span>Quarter</span>
+                        <select
+                          value={selectedQuarter}
+                          onChange={(event) => setSelectedQuarter(Number(event.target.value))}
+                        >
+                          {quarterNames.map((quarter, index) => (
+                            <option key={quarter} value={index}>
+                              {quarter}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                    ) : (
+                      <label>
+                        <span>Month</span>
+                        <select
+                          value={selectedMonth}
+                          onChange={(event) => setSelectedMonth(Number(event.target.value))}
+                        >
+                          {monthNames.map((month, index) => (
+                            <option key={month} value={index}>
+                              {month}
+                            </option>
+                          ))}
+                        </select>
+                      </label>
+                    )}
                     <button className="share-print-button" type="button" onClick={printComponentStats}>
                       Share PDF
                     </button>
@@ -473,7 +630,7 @@ function Dashboard() {
                   <div className="drilldown-summary">
                     <strong>{selectedMonthTotal.toLocaleString()}</strong>
                     <span>
-                      completed tickets in {monthNames[selectedMonth]} {selectedYear}
+                      completed tickets in {selectedComponentPeriodLabel}
                     </span>
                   </div>
 

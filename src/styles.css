@@ -349,6 +349,49 @@ gcds-header {
   transform: translateX(1.3rem);
 }
 
+.range-tabs {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  min-height: 2.75rem;
+  padding: 0.25rem;
+  background: #f8f8f8;
+  border: 1px solid #c7d0d8;
+  border-radius: 4px;
+}
+
+.range-tabs button {
+  min-height: 2.15rem;
+  padding: 0.35rem 0.75rem;
+  color: var(--gc-blue);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.range-tabs button.is-selected {
+  background: #ffffff;
+  border-color: var(--gc-blue);
+  box-shadow: 0 1px 2px rgba(38, 55, 74, 0.14);
+}
+
+.range-tabs button:focus-visible {
+  outline: 3px solid var(--gc-yellow);
+  outline-offset: 2px;
+}
+
+.range-tabs--compact {
+  min-height: 2.75rem;
+  width: fit-content;
+}
+
+.range-tabs--compact button {
+  min-width: 5.75rem;
+}
+
 .chart-frame {
   height: clamp(340px, 42vw, 520px);
 }
@@ -365,6 +408,68 @@ gcds-header {
   height: clamp(240px, 24vw, 320px);
   padding-bottom: 0.75rem;
   border-bottom: 1px solid var(--gc-border);
+}
+
+.quarterly-overview {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.quarterly-overview__title {
+  color: var(--gc-muted);
+  font-size: 1.45rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.chart-frame--quarterly {
+  height: clamp(300px, 34vw, 420px);
+}
+
+.quarterly-data-table {
+  overflow-x: auto;
+  margin-inline: auto;
+  width: min(100%, 920px);
+}
+
+.quarterly-data-table table {
+  width: 100%;
+  min-width: 560px;
+  border-collapse: collapse;
+  color: var(--gc-muted);
+  font-size: 0.95rem;
+  table-layout: fixed;
+}
+
+.quarterly-data-table th,
+.quarterly-data-table td {
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--gc-border);
+  text-align: center;
+}
+
+.quarterly-data-table thead th {
+  background: #ffffff;
+  color: var(--gc-muted);
+  font-weight: 700;
+}
+
+.quarterly-data-table tbody th {
+  text-align: left;
+  font-weight: 700;
+}
+
+.quarterly-data-table__label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  white-space: nowrap;
+}
+
+.quarterly-data-table__label span {
+  width: 0.65rem;
+  height: 0.65rem;
+  flex: 0 0 auto;
 }
 
 .drilldown-grid .chart-frame--compact {
@@ -404,6 +509,14 @@ gcds-header {
   display: grid;
   gap: 0.35rem;
   min-width: 150px;
+  color: var(--gc-blue);
+  font-weight: 700;
+}
+
+.period-control {
+  display: grid;
+  gap: 0.35rem;
+  min-width: 210px;
   color: var(--gc-blue);
   font-weight: 700;
 }
@@ -626,6 +739,19 @@ gcds-header {
     justify-content: center;
   }
 
+  .range-tabs {
+    width: 100%;
+  }
+
+  .range-tabs button {
+    flex: 1 1 9rem;
+  }
+
+  .period-control,
+  .period-control .range-tabs {
+    width: 100%;
+  }
+
   .chart-frame,
   .chart-frame--large {
     height: 340px;
@@ -633,6 +759,14 @@ gcds-header {
 
   .chart-frame--pie {
     height: 300px;
+  }
+
+  .quarterly-overview__title {
+    font-size: 1.2rem;
+  }
+
+  .chart-frame--quarterly {
+    height: 320px;
   }
 }
 
@@ -702,6 +836,7 @@ gcds-header {
   }
 
   .printable-monthly-section .range-switch,
+  .printable-monthly-section .range-tabs,
   .printable-monthly-section .panel-heading p,
   .printable-drilldown-section .panel-heading p:not(.print-only),
   .printable-drilldown-section .drilldown-controls,
