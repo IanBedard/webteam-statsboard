@@ -1,5 +1,806 @@
 [
    {
+        "Summary": "PAY - Request to revise page info - Transfer in and transfer out: Department and agency contacts SD: 240427 ",
+        "Issue key": "CSPAYWEB-5061",
+        "Priority": "Urgent",
+        "Created": "7/30/2026 11:15",
+        "Updated": "7/30/2026 11:36",
+        "Resolved": "7/30/2026 11:36",
+        "Component/s": "Tools"
+    },
+    {
+        "Summary": "Pension portal web alert",
+        "Issue key": "CSPAYWEB-5057",
+        "Priority": "Urgent",
+        "Created": "7/29/2026 10:59",
+        "Updated": "7/30/2026 8:16",
+        "Resolved": "7/29/2026 11:43",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Extended DB Maintenance & Phoenix maintenance mode. (1208)",
+        "Issue key": "CSPAYWEB-5055",
+        "Priority": "Urgent",
+        "Created": "7/23/2026 13:59",
+        "Updated": "7/23/2026 16:08",
+        "Resolved": "7/23/2026 16:08",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Changes to the pay processing schedule and YEPE/YEPO schedule for September 2026 - comms",
+        "Issue key": "CSPAYWEB-5054",
+        "Priority": "High",
+        "Created": "7/23/2026 12:57",
+        "Updated": "7/24/2026 11:37",
+        "Resolved": "7/24/2026 11:37",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Tech comms Web page - Review exercise Q1 2026",
+        "Issue key": "CSPAYWEB-5052",
+        "Priority": "Medium",
+        "Created": "7/23/2026 9:11",
+        "Updated": "7/24/2026 10:44",
+        "Resolved": "7/24/2026 10:44",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "TECHNICAL COMMUNICATIONS - Bundle #15",
+        "Issue key": "CSPAYWEB-5051",
+        "Priority": "High",
+        "Created": "7/22/2026 9:18",
+        "Updated": "7/28/2026 15:09",
+        "Resolved": "7/28/2026 15:09",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Web label Central Index",
+        "Issue key": "CSPAYWEB-5050",
+        "Priority": "Urgent",
+        "Created": "7/21/2026 14:42",
+        "Updated": "7/21/2026 14:42",
+        "Resolved": "7/21/2026 14:42",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Changes to pay processing schedule and YEPE/YEPO schedu",
+        "Issue key": "CSPAYWEB-5049",
+        "Priority": "High",
+        "Created": "7/21/2026 13:10",
+        "Updated": "7/24/2026 10:42",
+        "Resolved": "7/24/2026 10:42",
+        "Component/s": "Pay Calendars"
+    },
+    {
+        "Summary": "Update to tax slips amendment schedule webpage required",
+        "Issue key": "CSPAYWEB-5048",
+        "Priority": "Medium",
+        "Created": "7/21/2026 13:09",
+        "Updated": "7/24/2026 10:43",
+        "Resolved": "7/24/2026 10:43",
+        "Component/s": "Pay Calendars"
+    },
+    {
+        "Summary": "Service Interruption Web Alert - July 25-26",
+        "Issue key": "CSPAYWEB-5047",
+        "Priority": "Urgent",
+        "Created": "7/20/2026 9:30",
+        "Updated": "7/20/2026 10:13",
+        "Resolved": "7/20/2026 10:13",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "MyGCPay web label - July 18 to July 19",
+        "Issue key": "CSPAYWEB-5046",
+        "Priority": "Urgent",
+        "Created": "7/16/2026 11:38",
+        "Updated": "7/16/2026 13:57",
+        "Resolved": "7/16/2026 13:57",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Job Data - Notepad",
+        "Issue key": "CSPAYWEB-5044",
+        "Priority": "Medium",
+        "Created": "7/15/2026 14:43",
+        "Updated": "7/29/2026 15:32",
+        "Resolved": "7/29/2026 15:32",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "[URGENT REQUEST]  FW: (Inquiry #26-3850) URGENT:  Phoenix Procedures, Job Aids and Instructions - Only showing French content FYI",
+        "Issue key": "CSPAYWEB-5043",
+        "Priority": "Urgent",
+        "Created": "7/15/2026 14:29",
+        "Updated": "7/16/2026 6:45",
+        "Resolved": "7/16/2026 6:45",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR WEB: Tech comms Web page - Review exercise FY 2026-27",
+        "Issue key": "CSPAYWEB-5041",
+        "Priority": "Medium",
+        "Created": "7/15/2026 12:28",
+        "Updated": "7/17/2026 10:14",
+        "Resolved": "7/17/2026 10:14",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Procedure Update Request - Change in entitlement while on leave with income averaging",
+        "Issue key": "CSPAYWEB-5040",
+        "Priority": "High",
+        "Created": "7/15/2026 9:22",
+        "Updated": "7/22/2026 9:15",
+        "Resolved": "7/22/2026 9:15",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Dev request : Salary rates update and mass revision payment - Tentative schedule for 2022 round of collective agreement",
+        "Issue key": "CSPAYWEB-5039",
+        "Priority": "High",
+        "Created": "7/14/2026 14:17",
+        "Updated": "7/15/2026 14:21",
+        "Resolved": "7/15/2026 14:21",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Dev request Urgent : Earning codes",
+        "Issue key": "CSPAYWEB-5038",
+        "Priority": "Urgent",
+        "Created": "7/14/2026 13:25",
+        "Updated": "7/16/2026 9:03",
+        "Resolved": "7/16/2026 9:03",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Dev request: Transfer in and transfer out: Department and agency contacts",
+        "Issue key": "CSPAYWEB-5037",
+        "Priority": "Medium",
+        "Created": "7/14/2026 11:01",
+        "Updated": "7/30/2026 11:35",
+        "Resolved": "7/22/2026 9:16",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PPIM-Broken links",
+        "Issue key": "CSPAYWEB-5036",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:07",
+        "Updated": "7/27/2026 13:48",
+        "Resolved": "7/27/2026 13:48",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 1-5",
+        "Issue key": "CSPAYWEB-5035",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:01",
+        "Updated": "7/27/2026 9:54",
+        "Resolved": "7/27/2026 9:54",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 2-2",
+        "Issue key": "CSPAYWEB-5034",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:01",
+        "Updated": "7/27/2026 9:51",
+        "Resolved": "7/27/2026 9:51",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 3-5-3",
+        "Issue key": "CSPAYWEB-5033",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:01",
+        "Updated": "7/27/2026 9:49",
+        "Resolved": "7/27/2026 9:49",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 3-5-5",
+        "Issue key": "CSPAYWEB-5032",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:01",
+        "Updated": "7/27/2026 9:48",
+        "Resolved": "7/27/2026 9:48",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-02",
+        "Issue key": "CSPAYWEB-5031",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:01",
+        "Updated": "7/27/2026 9:46",
+        "Resolved": "7/27/2026 9:46",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-03",
+        "Issue key": "CSPAYWEB-5030",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:00",
+        "Updated": "7/27/2026 9:45",
+        "Resolved": "7/27/2026 9:45",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-07",
+        "Issue key": "CSPAYWEB-5029",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:00",
+        "Updated": "7/27/2026 9:44",
+        "Resolved": "7/27/2026 9:44",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-12-2",
+        "Issue key": "CSPAYWEB-5028",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:00",
+        "Updated": "7/27/2026 9:43",
+        "Resolved": "7/27/2026 9:43",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-13",
+        "Issue key": "CSPAYWEB-5027",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:00",
+        "Updated": "7/27/2026 9:41",
+        "Resolved": "7/27/2026 9:41",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-14",
+        "Issue key": "CSPAYWEB-5026",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:00",
+        "Updated": "7/27/2026 9:39",
+        "Resolved": "7/27/2026 9:39",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-15-4",
+        "Issue key": "CSPAYWEB-5025",
+        "Priority": "Medium",
+        "Created": "7/14/2026 10:00",
+        "Updated": "7/27/2026 9:38",
+        "Resolved": "7/27/2026 9:38",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-18-1",
+        "Issue key": "CSPAYWEB-5024",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:59",
+        "Updated": "7/27/2026 9:36",
+        "Resolved": "7/27/2026 9:36",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-18-2",
+        "Issue key": "CSPAYWEB-5023",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:59",
+        "Updated": "7/27/2026 9:33",
+        "Resolved": "7/27/2026 9:33",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-18-3-1",
+        "Issue key": "CSPAYWEB-5022",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:59",
+        "Updated": "7/27/2026 9:29",
+        "Resolved": "7/27/2026 9:29",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-18-4-2",
+        "Issue key": "CSPAYWEB-5021",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:59",
+        "Updated": "7/27/2026 9:25",
+        "Resolved": "7/27/2026 9:25",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-33",
+        "Issue key": "CSPAYWEB-5020",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:59",
+        "Updated": "7/27/2026 9:22",
+        "Resolved": "7/27/2026 9:22",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-6-6",
+        "Issue key": "CSPAYWEB-5017",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:58",
+        "Updated": "7/27/2026 9:14",
+        "Resolved": "7/27/2026 9:14",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-8-2",
+        "Issue key": "CSPAYWEB-5016",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:58",
+        "Updated": "7/21/2026 10:45",
+        "Resolved": "7/21/2026 10:45",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-8-7",
+        "Issue key": "CSPAYWEB-5015",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:58",
+        "Updated": "7/21/2026 11:03",
+        "Resolved": "7/21/2026 11:03",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-8-8",
+        "Issue key": "CSPAYWEB-5014",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:58",
+        "Updated": "7/21/2026 10:43",
+        "Resolved": "7/21/2026 10:43",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-13",
+        "Issue key": "CSPAYWEB-5013",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:57",
+        "Updated": "7/21/2026 10:49",
+        "Resolved": "7/21/2026 10:49",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 15-3-1",
+        "Issue key": "CSPAYWEB-5012",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:57",
+        "Updated": "7/21/2026 10:39",
+        "Resolved": "7/21/2026 10:39",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 16-3-1",
+        "Issue key": "CSPAYWEB-5011",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:57",
+        "Updated": "7/21/2026 10:36",
+        "Resolved": "7/21/2026 10:36",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 16-3-3",
+        "Issue key": "CSPAYWEB-5010",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:56",
+        "Updated": "7/21/2026 10:31",
+        "Resolved": "7/21/2026 10:31",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 16-3-4",
+        "Issue key": "CSPAYWEB-5009",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:56",
+        "Updated": "7/21/2026 10:26",
+        "Resolved": "7/21/2026 10:26",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 17-1-5",
+        "Issue key": "CSPAYWEB-5008",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:55",
+        "Updated": "7/21/2026 10:23",
+        "Resolved": "7/21/2026 10:23",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 17-3-1",
+        "Issue key": "CSPAYWEB-5007",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:55",
+        "Updated": "7/21/2026 10:22",
+        "Resolved": "7/21/2026 10:22",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 17-3-4",
+        "Issue key": "CSPAYWEB-5006",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:55",
+        "Updated": "7/21/2026 10:45",
+        "Resolved": "7/21/2026 10:45",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 18-3-4-2",
+        "Issue key": "CSPAYWEB-5003",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:54",
+        "Updated": "7/21/2026 10:36",
+        "Resolved": "7/21/2026 10:36",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 19-3",
+        "Issue key": "CSPAYWEB-5000",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:54",
+        "Updated": "7/21/2026 10:33",
+        "Resolved": "7/21/2026 10:33",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 19-7",
+        "Issue key": "CSPAYWEB-4999",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:54",
+        "Updated": "7/21/2026 10:27",
+        "Resolved": "7/21/2026 10:27",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM - FR manuals QC (July)",
+        "Issue key": "CSPAYWEB-4996",
+        "Priority": "Medium",
+        "Created": "7/14/2026 9:29",
+        "Updated": "7/27/2026 9:54",
+        "Resolved": "7/27/2026 9:54",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "For Publication: July 14th update to web files: E23 Templates (3 of 3)",
+        "Issue key": "CSPAYWEB-4995",
+        "Priority": "Urgent",
+        "Created": "7/13/2026 14:46",
+        "Updated": "7/13/2026 14:58",
+        "Resolved": "7/13/2026 14:58",
+        "Component/s": ""
+    },
+    {
+        "Summary": "For Publication: July 14th update to web files: E23 Templates (2 of 3)",
+        "Issue key": "CSPAYWEB-4994",
+        "Priority": "Urgent",
+        "Created": "7/13/2026 14:45",
+        "Updated": "7/13/2026 14:58",
+        "Resolved": "7/13/2026 14:58",
+        "Component/s": ""
+    },
+    {
+        "Summary": "For Publication: July 14th update to web files: E23 Templates (1 of 3)",
+        "Issue key": "CSPAYWEB-4993",
+        "Priority": "Urgent",
+        "Created": "7/13/2026 14:44",
+        "Updated": "7/13/2026 14:59",
+        "Resolved": "7/13/2026 14:58",
+        "Component/s": ""
+    },
+    {
+        "Summary": "FOR WEB CODING: New termination of employment letter",
+        "Issue key": "CSPAYWEB-4992",
+        "Priority": "Urgent",
+        "Created": "7/10/2026 11:45",
+        "Updated": "7/13/2026 11:21",
+        "Resolved": "7/13/2026 11:21",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Pension portal web alert",
+        "Issue key": "CSPAYWEB-4990",
+        "Priority": "Urgent",
+        "Created": "7/9/2026 14:40",
+        "Updated": "7/10/2026 7:48",
+        "Resolved": "7/10/2026 7:48",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "RE: [AMENDMENT REQUEST]  FW: PRIB Amendment Request ",
+        "Issue key": "CSPAYWEB-4989",
+        "Priority": "Medium",
+        "Created": "7/9/2026 10:33",
+        "Updated": "7/9/2026 11:25",
+        "Resolved": "7/9/2026 11:25",
+        "Component/s": "PRIBs"
+    },
+    {
+        "Summary": "[AMENDMENT REQUEST]  FW: PRIB 2018-005 amendment request",
+        "Issue key": "CSPAYWEB-4987",
+        "Priority": "Medium",
+        "Created": "7/9/2026 10:22",
+        "Updated": "7/9/2026 11:38",
+        "Resolved": "7/9/2026 11:38",
+        "Component/s": "PRIBs"
+    },
+    {
+        "Summary": "PPIM 4-4-02",
+        "Issue key": "CSPAYWEB-4986",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:36",
+        "Updated": "7/20/2026 9:41",
+        "Resolved": "7/20/2026 9:41",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-0-01",
+        "Issue key": "CSPAYWEB-4985",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:36",
+        "Updated": "7/20/2026 9:37",
+        "Resolved": "7/20/2026 9:37",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-6",
+        "Issue key": "CSPAYWEB-4984",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:36",
+        "Updated": "7/20/2026 9:33",
+        "Resolved": "7/20/2026 9:33",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-09",
+        "Issue key": "CSPAYWEB-4983",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:35",
+        "Updated": "7/20/2026 9:32",
+        "Resolved": "7/20/2026 9:32",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-14",
+        "Issue key": "CSPAYWEB-4982",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:35",
+        "Updated": "7/20/2026 9:31",
+        "Resolved": "7/20/2026 9:31",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-18-2",
+        "Issue key": "CSPAYWEB-4981",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:35",
+        "Updated": "7/20/2026 9:31",
+        "Resolved": "7/20/2026 9:31",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 4-4-18-3-1",
+        "Issue key": "CSPAYWEB-4980",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:35",
+        "Updated": "7/20/2026 9:29",
+        "Resolved": "7/20/2026 9:29",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-1",
+        "Issue key": "CSPAYWEB-4979",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:35",
+        "Updated": "7/20/2026 9:25",
+        "Resolved": "7/20/2026 9:25",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-4-3",
+        "Issue key": "CSPAYWEB-4978",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:35",
+        "Updated": "7/20/2026 9:23",
+        "Resolved": "7/20/2026 9:23",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-6-2",
+        "Issue key": "CSPAYWEB-4977",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:34",
+        "Updated": "7/20/2026 9:21",
+        "Resolved": "7/20/2026 9:21",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-6-1",
+        "Issue key": "CSPAYWEB-4976",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:34",
+        "Updated": "7/20/2026 9:19",
+        "Resolved": "7/20/2026 9:19",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 14-10-22",
+        "Issue key": "CSPAYWEB-4975",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:34",
+        "Updated": "7/20/2026 9:16",
+        "Resolved": "7/20/2026 9:16",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 15-1",
+        "Issue key": "CSPAYWEB-4974",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:34",
+        "Updated": "7/20/2026 9:10",
+        "Resolved": "7/20/2026 9:10",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 16-1",
+        "Issue key": "CSPAYWEB-4973",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:34",
+        "Updated": "7/20/2026 9:06",
+        "Resolved": "7/20/2026 9:06",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 16-3-1",
+        "Issue key": "CSPAYWEB-4972",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:34",
+        "Updated": "7/20/2026 9:04",
+        "Resolved": "7/20/2026 9:04",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 17-1-5",
+        "Issue key": "CSPAYWEB-4971",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:33",
+        "Updated": "7/15/2026 12:49",
+        "Resolved": "7/15/2026 12:49",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 18-3-3",
+        "Issue key": "CSPAYWEB-4970",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:33",
+        "Updated": "7/15/2026 10:14",
+        "Resolved": "7/15/2026 10:14",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM 18-3-6-1",
+        "Issue key": "CSPAYWEB-4969",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:33",
+        "Updated": "7/15/2026 10:06",
+        "Resolved": "7/15/2026 10:06",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "PPIM - EN manuals QC (July)",
+        "Issue key": "CSPAYWEB-4968",
+        "Priority": "Medium",
+        "Created": "7/9/2026 9:31",
+        "Updated": "7/20/2026 9:44",
+        "Resolved": "7/20/2026 9:44",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "For coding: Web alert - Discontinuation of release notes",
+        "Issue key": "CSPAYWEB-4967",
+        "Priority": "High",
+        "Created": "7/9/2026 7:49",
+        "Updated": "7/10/2026 11:21",
+        "Resolved": "7/10/2026 11:21",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Procedure Update Request - Transfer in and out - Department and agency contacts",
+        "Issue key": "CSPAYWEB-4966",
+        "Priority": "Medium",
+        "Created": "7/8/2026 13:41",
+        "Updated": "7/9/2026 14:19",
+        "Resolved": "7/9/2026 14:19",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Job Data - Notepad",
+        "Issue key": "CSPAYWEB-4965",
+        "Priority": "Medium",
+        "Created": "7/8/2026 9:09",
+        "Updated": "7/15/2026 14:42",
+        "Resolved": "7/15/2026 14:42",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "June Infographic",
+        "Issue key": "CSPAYWEB-4963",
+        "Priority": "Medium",
+        "Created": "7/8/2026 7:56",
+        "Updated": "7/9/2026 9:16",
+        "Resolved": "7/9/2026 9:16",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "FW: *FOR WEB* | TECHNICAL COMMUNICATIONS - Bundle #12",
+        "Issue key": "CSPAYWEB-4962",
+        "Priority": "Medium",
+        "Created": "7/8/2026 7:53",
+        "Updated": "7/10/2026 11:35",
+        "Resolved": "7/10/2026 11:35",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "New Benefit letter - Termination of employment â Resignation with TSM Cash Payment under Work Force Adjustment Directive (WFAD) â for indeterminate employees only",
+        "Issue key": "CSPAYWEB-4961",
+        "Priority": "Medium",
+        "Created": "7/7/2026 11:52",
+        "Updated": "7/13/2026 8:58",
+        "Resolved": "7/13/2026 8:58",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Remove web label on CPP page",
+        "Issue key": "CSPAYWEB-4960",
+        "Priority": "High",
+        "Created": "7/7/2026 10:47",
+        "Updated": "7/7/2026 11:49",
+        "Resolved": "7/7/2026 11:49",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Benefit letter title update - EmployÃ© embauchÃ© pour une pÃ©riode de plus de 6 mois",
+        "Issue key": "CSPAYWEB-4958",
+        "Priority": "Medium",
+        "Created": "7/6/2026 10:21",
+        "Updated": "7/6/2026 13:33",
+        "Resolved": "7/6/2026 13:33",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Request to update existing visual aids - Overpayment project",
+        "Issue key": "CSPAYWEB-4957",
+        "Priority": "Medium",
+        "Created": "7/6/2026 9:24",
+        "Updated": "7/8/2026 8:15",
+        "Resolved": "7/7/2026 9:02",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "[PRIBS FOR PUBLISHING] FW: HOC (HCR & PPR groups)  PRIBS for publishing",
+        "Issue key": "CSPAYWEB-4956",
+        "Priority": "High",
+        "Created": "7/3/2026 9:35",
+        "Updated": "7/7/2026 7:31",
+        "Resolved": "7/7/2026 7:31",
+        "Component/s": "PRIBs"
+    },
+    {
+        "Summary": "Web alert for coding - Jule 3 at 8:45 am",
+        "Issue key": "CSPAYWEB-4955",
+        "Priority": "High",
+        "Created": "7/2/2026 13:29",
+        "Updated": "7/6/2026 10:38",
+        "Resolved": "7/3/2026 8:45",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "/dr-cd/  migration to Remuneration-compensation ",
+        "Issue key": "CSPAYWEB-4954",
+        "Priority": "Medium",
+        "Created": "7/2/2026 10:01",
+        "Updated": "7/6/2026 10:40",
+        "Resolved": "7/2/2026 10:21",
+        "Component/s": ""
+    },
+    {
         "Summary": "Upload the filterable list",
         "Issue key": "CSPAYWEB-4953",
         "Priority": "Medium",
