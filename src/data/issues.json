@@ -1,5 +1,166 @@
 [
    {
+        "Summary": "Filterable list update (CR18553)",
+        "Issue key": "CSPAYWEB-5085",
+        "Priority": "Urgent",
+        "Created": "8/10/2026 11:42",
+        "Updated": "8/10/2026 15:37",
+        "Resolved": "8/10/2026 15:37",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Time-Sensitive Update to gcintranet: Parental Benefits",
+        "Issue key": "CSPAYWEB-5084",
+        "Priority": "Urgent",
+        "Created": "8/10/2026 10:24",
+        "Updated": "8/10/2026 13:11",
+        "Resolved": "8/10/2026 13:11",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FW: Outage - My GC Pension",
+        "Issue key": "CSPAYWEB-5082",
+        "Priority": "Urgent",
+        "Created": "8/10/2026 8:25",
+        "Updated": "8/10/2026 8:34",
+        "Resolved": "8/10/2026 8:34",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Pension web label",
+        "Issue key": "CSPAYWEB-5080",
+        "Priority": "Urgent",
+        "Created": "8/7/2026 13:27",
+        "Updated": "8/7/2026 13:44",
+        "Resolved": "8/7/2026 13:44",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "*TIME SENSITIVE* - FOR DIRECTOR APPROVAL: New status transactions reports for Section 33 authorization of payable time",
+        "Issue key": "CSPAYWEB-5079",
+        "Priority": "Urgent",
+        "Created": "8/7/2026 11:09",
+        "Updated": "8/10/2026 10:55",
+        "Resolved": "8/10/2026 10:55",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Sandbox publication removal request : Section 33 Time and Labour Transactions Approved by Section 34 Managers",
+        "Issue key": "CSPAYWEB-5077",
+        "Priority": "Urgent",
+        "Created": "8/7/2026 10:21",
+        "Updated": "8/7/2026 15:49",
+        "Resolved": "8/7/2026 15:49",
+        "Component/s": "Sandbox"
+    },
+    {
+        "Summary": "RE: JIRA #4721 FOR CODING (migration): Pay equity manual interest processing",
+        "Issue key": "CSPAYWEB-5076",
+        "Priority": "Medium",
+        "Created": "8/6/2026 13:15",
+        "Updated": "8/11/2026 9:37",
+        "Resolved": "8/11/2026 9:37",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "RE: GO LIVE: JIRA #4723 FOR CODNG (Migration) : Manual pay equity interest calculation tool",
+        "Issue key": "CSPAYWEB-5075",
+        "Priority": "Medium",
+        "Created": "8/6/2026 13:08",
+        "Updated": "8/10/2026 9:23",
+        "Resolved": "8/10/2026 9:23",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Breadcrumbs - Tax slips amendments schedule for employees",
+        "Issue key": "CSPAYWEB-5074",
+        "Priority": "Medium",
+        "Created": "8/5/2026 15:13",
+        "Updated": "8/5/2026 15:18",
+        "Resolved": "8/5/2026 15:16",
+        "Component/s": "Pay Calendars"
+    },
+    {
+        "Summary": "Transfer in and transfer out - Department and agency rollout dates",
+        "Issue key": "CSPAYWEB-5070",
+        "Priority": "Medium",
+        "Created": "8/4/2026 15:22",
+        "Updated": "8/5/2026 9:30",
+        "Resolved": "8/5/2026 9:30",
+        "Component/s": "Tools"
+    },
+    {
+        "Summary": "Transfer in and out - Department and agency contacts",
+        "Issue key": "CSPAYWEB-5069",
+        "Priority": "Medium",
+        "Created": "8/4/2026 14:14",
+        "Updated": "8/5/2026 13:47",
+        "Resolved": "8/5/2026 13:47",
+        "Component/s": "Tools"
+    },
+    {
+        "Summary": "Section 33 Time and Labour Transactions Current On/Off Cycle report ",
+        "Issue key": "CSPAYWEB-5067",
+        "Priority": "Medium",
+        "Created": "7/31/2026 13:03",
+        "Updated": "8/10/2026 10:04",
+        "Resolved": "8/10/2026 10:04",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Section 33 Time and Labour Transactions Approved by Section 34 Managers",
+        "Issue key": "CSPAYWEB-5066",
+        "Priority": "Medium",
+        "Created": "7/31/2026 13:02",
+        "Updated": "8/10/2026 10:03",
+        "Resolved": "8/10/2026 10:03",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Sandbox publication request : Section 33 Time and Labour Transactions Current On/Off Cycle reportG",
+        "Issue key": "CSPAYWEB-5065",
+        "Priority": "Urgent",
+        "Created": "7/31/2026 11:32",
+        "Updated": "8/7/2026 10:15",
+        "Resolved": "8/7/2026 10:15",
+        "Component/s": "Sandbox"
+    },
+    {
+        "Summary": "Sandbox publication request : Section 33 Time and Labour Transactions Approved by Section 34 Managers",
+        "Issue key": "CSPAYWEB-5064",
+        "Priority": "Urgent",
+        "Created": "7/31/2026 11:31",
+        "Updated": "8/7/2026 10:16",
+        "Resolved": "8/7/2026 10:16",
+        "Component/s": "Sandbox"
+    },
+    {
+        "Summary": "Service Interruption Web Alert - August 8-9",
+        "Issue key": "CSPAYWEB-5063",
+        "Priority": "Urgent",
+        "Created": "7/31/2026 9:17",
+        "Updated": "8/4/2026 9:08",
+        "Resolved": "8/4/2026 9:08",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "CPP page updates",
+        "Issue key": "CSPAYWEB-5062",
+        "Priority": "Medium",
+        "Created": "7/31/2026 9:15",
+        "Updated": "7/31/2026 13:05",
+        "Resolved": "7/31/2026 13:05",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "OSFI (REB 01 & 02 groups) PRIBS for publishing",
+        "Issue key": "CSPAYWEB-5059",
+        "Priority": "Medium",
+        "Created": "7/30/2026 11:08",
+        "Updated": "8/5/2026 9:24",
+        "Resolved": "8/5/2026 9:24",
+        "Component/s": "PRIBs"
+    },{
         "Summary": "PAY - Request to revise page info - Transfer in and transfer out: Department and agency contacts SD: 240427 ",
         "Issue key": "CSPAYWEB-5061",
         "Priority": "Urgent",
