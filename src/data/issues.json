@@ -1,5 +1,1553 @@
 [
    {
+        "Summary": "Web label - MyGCHR Outage",
+        "Issue key": "CSPAYWEB-5387",
+        "Priority": "Urgent",
+        "Created": "9/29/2026 10:04",
+        "Updated": "9/29/2026 10:31",
+        "Resolved": "9/29/2026 10:31",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Show full title on hover for Related Visual Aids carousel cards",
+        "Issue key": "CSPAYWEB-5385",
+        "Priority": "Medium",
+        "Created": "9/29/2026 9:29",
+        "Updated": "9/29/2026 9:30",
+        "Resolved": "9/29/2026 9:30",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "[FOR CODING] Service interruption Web Alert - October 2-5",
+        "Issue key": "CSPAYWEB-5382",
+        "Priority": "High",
+        "Created": "9/28/2026 10:21",
+        "Updated": "9/28/2026 11:49",
+        "Resolved": "9/28/2026 11:49",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Sandbox page - Instructions - Letters for partial amounts of limitation period overpayment",
+        "Issue key": "CSPAYWEB-5374",
+        "Priority": "Urgent",
+        "Created": "9/28/2026 8:45",
+        "Updated": "9/28/2026 10:12",
+        "Resolved": "9/28/2026 10:12",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Sandbox page - Recovery methods for overpayments",
+        "Issue key": "CSPAYWEB-5373",
+        "Priority": "Urgent",
+        "Created": "9/28/2026 8:10",
+        "Updated": "9/28/2026 10:12",
+        "Resolved": "9/28/2026 10:12",
+        "Component/s": ""
+    },
+    {
+        "Summary": "FW: Alert on",
+        "Issue key": "CSPAYWEB-5372",
+        "Priority": "Urgent",
+        "Created": "9/25/2026 14:52",
+        "Updated": "9/28/2026 11:27",
+        "Resolved": "9/28/2026 11:27",
+        "Component/s": ""
+    },
+    {
+        "Summary": "FW: Les nouvelles communications sur le systÃ¨me de paye sont disponibles | New pay system communications are available",
+        "Issue key": "CSPAYWEB-5364",
+        "Priority": "Urgent",
+        "Created": "9/25/2026 10:33",
+        "Updated": "9/25/2026 15:47",
+        "Resolved": "9/25/2026 15:47",
+        "Component/s": "Pay Calendars"
+    },
+    {
+        "Summary": "LIA Tool Outage",
+        "Issue key": "CSPAYWEB-5363",
+        "Priority": "Urgent",
+        "Created": "9/25/2026 8:07",
+        "Updated": "9/28/2026 13:38",
+        "Resolved": "9/28/2026 13:38",
+        "Component/s": "Tools"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Late processing of leave with income averaging - Manage allowances ",
+        "Issue key": "CSPAYWEB-5361",
+        "Priority": "Medium",
+        "Created": "9/25/2026 7:39",
+        "Updated": "9/28/2026 12:32",
+        "Resolved": "9/28/2026 12:32",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Current/future-dated acting during a leave with income averaging - Job data (MyGCHR)",
+        "Issue key": "CSPAYWEB-5360",
+        "Priority": "Medium",
+        "Created": "9/25/2026 7:38",
+        "Updated": "9/28/2026 12:27",
+        "Resolved": "9/28/2026 12:27",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Current or future dated acting during a leave with income averaging - Manage allowances ",
+        "Issue key": "CSPAYWEB-5359",
+        "Priority": "Medium",
+        "Created": "9/25/2026 7:38",
+        "Updated": "9/28/2026 9:08",
+        "Resolved": "9/28/2026 9:08",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Current or future-dated acting during a leave with income averaging job data (GC HRMS v. 8.9 only) ",
+        "Issue key": "CSPAYWEB-5358",
+        "Priority": "Medium",
+        "Created": "9/25/2026 7:36",
+        "Updated": "9/28/2026 9:06",
+        "Resolved": "9/28/2026 9:06",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Change in hours while on leave with income averaging",
+        "Issue key": "CSPAYWEB-5357",
+        "Priority": "Medium",
+        "Created": "9/25/2026 7:36",
+        "Updated": "9/28/2026 12:24",
+        "Resolved": "9/28/2026 12:24",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Change in entitlement while on leave with income averaging",
+        "Issue key": "CSPAYWEB-5356",
+        "Priority": "Medium",
+        "Created": "9/25/2026 7:35",
+        "Updated": "9/28/2026 9:07",
+        "Resolved": "9/28/2026 9:07",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FW: [FOR CODING] Outage - My GC Pension",
+        "Issue key": "CSPAYWEB-5336",
+        "Priority": "Urgent",
+        "Created": "9/23/2026 11:36",
+        "Updated": "9/25/2026 16:13",
+        "Resolved": "9/25/2026 16:13",
+        "Component/s": ""
+    },
+    {
+        "Summary": "CWA remaining references  (5/5)",
+        "Issue key": "CSPAYWEB-5335",
+        "Priority": "High",
+        "Created": "9/22/2026 13:24",
+        "Updated": "9/23/2026 10:08",
+        "Resolved": "9/23/2026 10:08",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "CWA remaining references  (4/5)",
+        "Issue key": "CSPAYWEB-5334",
+        "Priority": "High",
+        "Created": "9/22/2026 13:23",
+        "Updated": "9/23/2026 10:08",
+        "Resolved": "9/23/2026 10:08",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "CWA remaining references  (3/5)",
+        "Issue key": "CSPAYWEB-5333",
+        "Priority": "High",
+        "Created": "9/22/2026 13:23",
+        "Updated": "9/23/2026 10:08",
+        "Resolved": "9/23/2026 10:08",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "CWA remaining references  (2/5)",
+        "Issue key": "CSPAYWEB-5332",
+        "Priority": "High",
+        "Created": "9/22/2026 13:22",
+        "Updated": "9/23/2026 10:07",
+        "Resolved": "9/23/2026 10:07",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "CWA remaining references  (1/5)",
+        "Issue key": "CSPAYWEB-5331",
+        "Priority": "High",
+        "Created": "9/22/2026 13:22",
+        "Updated": "9/23/2026 14:31",
+        "Resolved": "9/23/2026 14:31",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Methods of repaymentâ¯ ",
+        "Issue key": "CSPAYWEB-5329",
+        "Priority": "High",
+        "Created": "9/22/2026 11:46",
+        "Updated": "9/23/2026 10:43",
+        "Resolved": "9/23/2026 10:43",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Filterable list to update",
+        "Issue key": "CSPAYWEB-5325",
+        "Priority": "Medium",
+        "Created": "9/21/2026 11:25",
+        "Updated": "9/24/2026 13:09",
+        "Resolved": "9/24/2026 13:09",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Web label removal",
+        "Issue key": "CSPAYWEB-5317",
+        "Priority": "Urgent",
+        "Created": "9/21/2026 7:35",
+        "Updated": "9/21/2026 7:45",
+        "Resolved": "9/21/2026 7:45",
+        "Component/s": ""
+    },
+    {
+        "Summary": "[URGENT WEB LABEL]  FW: Smoke Testing: September 20, 2026 - GCPENS Production Patching",
+        "Issue key": "CSPAYWEB-5316",
+        "Priority": "Urgent",
+        "Created": "9/18/2026 14:09",
+        "Updated": "9/18/2026 14:16",
+        "Resolved": "9/18/2026 14:16",
+        "Component/s": ""
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Pension benefit enrollment report",
+        "Issue key": "CSPAYWEB-5315",
+        "Priority": "Medium",
+        "Created": "9/18/2026 11:11",
+        "Updated": "9/21/2026 14:23",
+        "Resolved": "9/21/2026 14:23",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Life benefit enrollment report",
+        "Issue key": "CSPAYWEB-5314",
+        "Priority": "Medium",
+        "Created": "9/18/2026 11:06",
+        "Updated": "9/21/2026 14:23",
+        "Resolved": "9/21/2026 14:23",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Dev request : Salary Plan",
+        "Issue key": "CSPAYWEB-5313",
+        "Priority": "Medium",
+        "Created": "9/18/2026 9:14",
+        "Updated": "9/28/2026 7:29",
+        "Resolved": "9/28/2026 7:29",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Executive salary revision: Process breakdown (2018 to 2021)",
+        "Issue key": "CSPAYWEB-5312",
+        "Priority": "Medium",
+        "Created": "9/18/2026 7:29",
+        "Updated": "9/18/2026 14:27",
+        "Resolved": "9/18/2026 14:27",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "PROCEDURE UPDATE REQUEST - Executive performance pay: Process breakdown",
+        "Issue key": "CSPAYWEB-5311",
+        "Priority": "Medium",
+        "Created": "9/18/2026 7:26",
+        "Updated": "9/18/2026 14:25",
+        "Resolved": "9/18/2026 14:25",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR CODING (migration) - Leave with income averaging calculator",
+        "Issue key": "CSPAYWEB-5310",
+        "Priority": "Urgent",
+        "Created": "9/17/2026 11:19",
+        "Updated": "9/21/2026 4:46",
+        "Resolved": "9/21/2026 4:46",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Figure issue in Direct payment for employee debt",
+        "Issue key": "CSPAYWEB-5309",
+        "Priority": "Medium",
+        "Created": "9/17/2026 9:35",
+        "Updated": "9/17/2026 11:10",
+        "Resolved": "9/17/2026 11:10",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "[FOR CODING] WebCADWeb Alert - September 19-20",
+        "Issue key": "CSPAYWEB-5308",
+        "Priority": "Urgent",
+        "Created": "9/16/2026 14:42",
+        "Updated": "9/21/2026 10:57",
+        "Resolved": "9/21/2026 10:57",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Filterable list to update",
+        "Issue key": "CSPAYWEB-5307",
+        "Priority": "Medium",
+        "Created": "9/16/2026 14:30",
+        "Updated": "9/21/2026 11:25",
+        "Resolved": "9/21/2026 11:25",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Procedure Update Request - Phoenix for managers: Employees without access to Phoenix Self-Service",
+        "Issue key": "CSPAYWEB-5306",
+        "Priority": "Medium",
+        "Created": "9/16/2026 10:07",
+        "Updated": "9/21/2026 9:04",
+        "Resolved": "9/21/2026 9:04",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Tech comms - Cache optimization",
+        "Issue key": "CSPAYWEB-5305",
+        "Priority": "Low",
+        "Created": "9/15/2026 16:17",
+        "Updated": "9/15/2026 16:45",
+        "Resolved": "9/15/2026 16:42",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Urgent: Dev links needed today â CCC operating hours notice",
+        "Issue key": "CSPAYWEB-5304",
+        "Priority": "Urgent",
+        "Created": "9/15/2026 15:13",
+        "Updated": "9/16/2026 10:12",
+        "Resolved": "9/16/2026 10:12",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": " Service Interruption Web Alert - September 19-20",
+        "Issue key": "CSPAYWEB-5303",
+        "Priority": "Urgent",
+        "Created": "9/15/2026 13:23",
+        "Updated": "9/16/2026 14:08",
+        "Resolved": "9/16/2026 14:08",
+        "Component/s": ""
+    },
+    {
+        "Summary": "FW: Issue with French Link â Pay Stubs and Archived Tax Slips in CWA",
+        "Issue key": "CSPAYWEB-5301",
+        "Priority": "Urgent",
+        "Created": "9/15/2026 11:12",
+        "Updated": "9/15/2026 11:23",
+        "Resolved": "9/15/2026 11:23",
+        "Component/s": ""
+    },
+    {
+        "Summary": "SE CER Executives group (NB 13-16) October 6th, 2026 - (C) CR 18341)  PRIBS for publishing",
+        "Issue key": "CSPAYWEB-5300",
+        "Priority": "Urgent",
+        "Created": "9/15/2026 7:14",
+        "Updated": "9/17/2026 15:17",
+        "Resolved": "9/17/2026 15:17",
+        "Component/s": "PRIBs"
+    },
+    {
+        "Summary": "URGENT REQUEST: Notice to publish today update",
+        "Issue key": "CSPAYWEB-5299",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 15:53",
+        "Updated": "9/14/2026 15:57",
+        "Resolved": "9/14/2026 15:56",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Post modification Sweep request: CCC - GCintranet",
+        "Issue key": "CSPAYWEB-5298",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 14:30",
+        "Updated": "9/16/2026 10:12",
+        "Resolved": "9/16/2026 10:12",
+        "Component/s": "Sweep"
+    },
+    {
+        "Summary": "Procedure Update Request - Understanding record of employment processing",
+        "Issue key": "CSPAYWEB-5297",
+        "Priority": "Medium",
+        "Created": "9/14/2026 14:13",
+        "Updated": "9/21/2026 11:03",
+        "Resolved": "9/21/2026 11:03",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "URGENT REQUEST: Notice to publish today",
+        "Issue key": "CSPAYWEB-5295",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 13:44",
+        "Updated": "9/14/2026 15:53",
+        "Resolved": "9/14/2026 15:25",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "[PRIBS FOR PUBLISHING]  2026-0XX â SE SEN00 (ADW & ADQ Sal Plans) PRIBS for publishing",
+        "Issue key": "CSPAYWEB-5294",
+        "Priority": "High",
+        "Created": "9/14/2026 12:50",
+        "Updated": "9/16/2026 13:55",
+        "Resolved": "9/16/2026 13:55",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Urgent Update Required â CCC Operating Hours Pages EOD",
+        "Issue key": "CSPAYWEB-5293",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 12:47",
+        "Updated": "9/14/2026 13:40",
+        "Resolved": "9/14/2026 13:40",
+        "Component/s": ""
+    },
+    {
+        "Summary": "URGENT - WEB ALERT",
+        "Issue key": "CSPAYWEB-5291",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 12:17",
+        "Updated": "9/14/2026 12:18",
+        "Resolved": "9/14/2026 12:18",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Post modification Sweep request: CCC - MySource",
+        "Issue key": "CSPAYWEB-5290",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 9:22",
+        "Updated": "9/16/2026 10:13",
+        "Resolved": "9/16/2026 10:13",
+        "Component/s": "Sweep"
+    },
+    {
+        "Summary": "URGENT - Procedure Update Request - Employee Self-Service - Public Service Health Care Plan",
+        "Issue key": "CSPAYWEB-5289",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 8:59",
+        "Updated": "9/14/2026 15:35",
+        "Resolved": "9/14/2026 15:35",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "URGENT - Procedure Update Request - Selecting the correct employee record when entering extra duty pay",
+        "Issue key": "CSPAYWEB-5288",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 8:56",
+        "Updated": "9/14/2026 14:46",
+        "Resolved": "9/14/2026 14:46",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "ER1132: Statement of account for former employees",
+        "Issue key": "CSPAYWEB-5287",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 8:53",
+        "Updated": "9/14/2026 15:20",
+        "Resolved": "9/14/2026 15:20",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "HIGH IMPORTANCE Request for Dev: Phoenix for section 34 managers - Key activities to ensure employees are paid accurately and on time ",
+        "Issue key": "CSPAYWEB-5286",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 8:47",
+        "Updated": "9/14/2026 15:08",
+        "Resolved": "9/14/2026 15:08",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "HIGH IMPORTANCE Request for Dev: Phoenix for section 34 managers - Actions required in Phoenix for new employees ",
+        "Issue key": "CSPAYWEB-5285",
+        "Priority": "Urgent",
+        "Created": "9/14/2026 8:44",
+        "Updated": "9/14/2026 15:18",
+        "Resolved": "9/14/2026 15:18",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "[AMENDMENT REQUEST] FW: PRIB Amendment Request - 2023-062 - ENR00 - CER Executives (NB)",
+        "Issue key": "CSPAYWEB-5284",
+        "Priority": "Urgent",
+        "Created": "9/11/2026 14:00",
+        "Updated": "9/14/2026 12:24",
+        "Resolved": "9/14/2026 12:24",
+        "Component/s": "PRIBs"
+    },
+    {
+        "Summary": "Coding Request â New Training Schedule Communication",
+        "Issue key": "CSPAYWEB-5277",
+        "Priority": "Urgent",
+        "Created": "9/11/2026 10:34",
+        "Updated": "9/15/2026 8:55",
+        "Resolved": "9/15/2026 8:55",
+        "Component/s": ""
+    },
+    {
+        "Summary": "2027 YEPE/YEPO calendars and communication",
+        "Issue key": "CSPAYWEB-5276",
+        "Priority": "Urgent",
+        "Created": "9/11/2026 10:30",
+        "Updated": "9/24/2026 13:53",
+        "Resolved": "9/24/2026 13:53",
+        "Component/s": "Compensation Directives"
+    },
+    {
+        "Summary": "onfirmed that they look good. Ticket closed</p></p><br></br>\"",
+        "Issue key": "0",
+        "Priority": "",
+        "Created": "",
+        "Updated": "",
+        "Resolved": "",
+        "Component/s": ""
+    },
+    {
+        "Summary": "FOR CODING: CCC service change visual aid",
+        "Issue key": "CSPAYWEB-5275",
+        "Priority": "Urgent",
+        "Created": "9/11/2026 9:01",
+        "Updated": "9/15/2026 9:20",
+        "Resolved": "9/15/2026 9:20",
+        "Component/s": ""
+    },
+    {
+        "Summary": "RE: JIRA 5121 - Sandbox removal - Recovery of overpayment hand-off-package",
+        "Issue key": "CSPAYWEB-5274",
+        "Priority": "Medium",
+        "Created": "9/11/2026 8:16",
+        "Updated": "9/11/2026 13:41",
+        "Resolved": "9/11/2026 13:41",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR CODING: CCC notice Tuesday the 15th",
+        "Issue key": "CSPAYWEB-5273",
+        "Priority": "High",
+        "Created": "9/11/2026 7:54",
+        "Updated": "9/16/2026 10:15",
+        "Resolved": "9/16/2026 10:15",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "RE: Urgent Request: CCC Service Delivery Changes Update",
+        "Issue key": "CSPAYWEB-5272",
+        "Priority": "Urgent",
+        "Created": "9/10/2026 13:05",
+        "Updated": "9/10/2026 15:23",
+        "Resolved": "9/10/2026 15:23",
+        "Component/s": "Support"
+    },
+    {
+        "Summary": "Training team placemat â 2026 August Infographic",
+        "Issue key": "CSPAYWEB-5271",
+        "Priority": "Medium",
+        "Created": "9/10/2026 12:30",
+        "Updated": "9/14/2026 9:25",
+        "Resolved": "9/14/2026 9:25",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Outage - My GC Pension",
+        "Issue key": "CSPAYWEB-5270",
+        "Priority": "High",
+        "Created": "9/10/2026 8:12",
+        "Updated": "9/11/2026 7:28",
+        "Resolved": "9/11/2026 7:27",
+        "Component/s": ""
+    },
+    {
+        "Summary": "URGENT WEB LABEL ",
+        "Issue key": "CSPAYWEB-5269",
+        "Priority": "Urgent",
+        "Created": "9/9/2026 14:36",
+        "Updated": "9/9/2026 14:38",
+        "Resolved": "9/9/2026 14:38",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Updates to existing webpages: CCC service delivery change - Tax slips amendments schedule for employees",
+        "Issue key": "CSPAYWEB-5259",
+        "Priority": "Urgent",
+        "Created": "9/9/2026 9:37",
+        "Updated": "9/10/2026 14:20",
+        "Resolved": "9/10/2026 14:20",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Updates to existing webpages: CCC service delivery change - Frequently asked questions on Track myCASE - PSPC - GCIntranet",
+        "Issue key": "CSPAYWEB-5258",
+        "Priority": "Urgent",
+        "Created": "9/9/2026 9:35",
+        "Updated": "9/10/2026 15:23",
+        "Resolved": "9/10/2026 15:23",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Updates to existing webpages: CCC service delivery change - Compensation Web Applications contact information - PSPC GCintranet",
+        "Issue key": "CSPAYWEB-5257",
+        "Priority": "Urgent",
+        "Created": "9/9/2026 9:34",
+        "Updated": "9/10/2026 14:22",
+        "Resolved": "9/10/2026 14:22",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Updates to existing webpages: CCC service delivery change - Summary report of the survey on the proposed pay stub in MyGCPay - PSPC GCintranet",
+        "Issue key": "CSPAYWEB-5256",
+        "Priority": "Urgent",
+        "Created": "9/9/2026 9:32",
+        "Updated": "9/10/2026 14:25",
+        "Resolved": "9/10/2026 14:25",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Updates to existing webpages: CCC service delivery change - Technical Communications Team - GCIntranet - PSPC",
+        "Issue key": "CSPAYWEB-5255",
+        "Priority": "Urgent",
+        "Created": "9/9/2026 9:29",
+        "Updated": "9/15/2026 10:43",
+        "Resolved": "9/15/2026 10:43",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (8 of 8)",
+        "Issue key": "CSPAYWEB-5254",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:26",
+        "Updated": "9/10/2026 13:23",
+        "Resolved": "9/10/2026 13:23",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (7 of 8)",
+        "Issue key": "CSPAYWEB-5253",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:25",
+        "Updated": "9/10/2026 13:26",
+        "Resolved": "9/10/2026 13:26",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (6 of 8)",
+        "Issue key": "CSPAYWEB-5252",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:25",
+        "Updated": "9/10/2026 13:27",
+        "Resolved": "9/10/2026 13:27",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (5 of 8)",
+        "Issue key": "CSPAYWEB-5251",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:24",
+        "Updated": "9/14/2026 14:39",
+        "Resolved": "9/14/2026 14:38",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (4 of 8)",
+        "Issue key": "CSPAYWEB-5250",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:23",
+        "Updated": "9/14/2026 14:37",
+        "Resolved": "9/14/2026 14:37",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (3 of 8)",
+        "Issue key": "CSPAYWEB-5249",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:23",
+        "Updated": "9/10/2026 13:28",
+        "Resolved": "9/10/2026 13:28",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (2 of 8)",
+        "Issue key": "CSPAYWEB-5248",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:22",
+        "Updated": "9/10/2026 13:43",
+        "Resolved": "9/10/2026 13:43",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "Visual Aid Web Update Required: CCC Service Delivery Change (1 of 8)",
+        "Issue key": "CSPAYWEB-5247",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 15:22",
+        "Updated": "9/14/2026 14:34",
+        "Resolved": "9/14/2026 14:34",
+        "Component/s": "Visual Aids"
+    },
+    {
+        "Summary": "[FOR CODING] Outage - My GC Pension",
+        "Issue key": "CSPAYWEB-5246",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 14:17",
+        "Updated": "9/8/2026 15:09",
+        "Resolved": "9/8/2026 15:09",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "FW: *TIME SENSITIVE* - FOR DIRECTOR APPROVAL: Change in Pay and Benefits Client Contact Centre (CCC) operating hours",
+        "Issue key": "CSPAYWEB-5244",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 10:06",
+        "Updated": "9/9/2026 10:50",
+        "Resolved": "9/9/2026 10:50",
+        "Component/s": ""
+    },
+    {
+        "Summary": "*FOR WEB CODING | TECHNICAL COMMUNICATIONS - Bundle #21",
+        "Issue key": "CSPAYWEB-5243",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 7:15",
+        "Updated": "9/8/2026 14:14",
+        "Resolved": "9/8/2026 14:14",
+        "Component/s": ""
+    },
+    {
+        "Summary": "[FOR CODING] Outage - My GC Pension",
+        "Issue key": "CSPAYWEB-5242",
+        "Priority": "Urgent",
+        "Created": "9/8/2026 7:13",
+        "Updated": "9/8/2026 14:18",
+        "Resolved": "9/8/2026 7:40",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Who to contact for pay system support â Timekeeper",
+        "Issue key": "CSPAYWEB-5241",
+        "Priority": "Urgent",
+        "Created": "9/4/2026 15:38",
+        "Updated": "9/9/2026 10:33",
+        "Resolved": "9/9/2026 10:33",
+        "Component/s": "Support"
+    },
+    {
+        "Summary": "RE: Urgent Request: CCC Service Delivery Changes Update",
+        "Issue key": "CSPAYWEB-5240",
+        "Priority": "Urgent",
+        "Created": "9/4/2026 15:05",
+        "Updated": "9/10/2026 14:29",
+        "Resolved": "9/10/2026 13:06",
+        "Component/s": "Support"
+    },
+    {
+        "Summary": "[FOR CODING] - Pension portal web alert",
+        "Issue key": "CSPAYWEB-5236",
+        "Priority": "Urgent",
+        "Created": "9/4/2026 8:25",
+        "Updated": "9/4/2026 10:57",
+        "Resolved": "9/4/2026 10:57",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (8 of 8)",
+        "Issue key": "CSPAYWEB-5235",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:32",
+        "Updated": "9/9/2026 13:17",
+        "Resolved": "9/9/2026 13:17",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (7 of 8)",
+        "Issue key": "CSPAYWEB-5234",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:30",
+        "Updated": "9/9/2026 13:17",
+        "Resolved": "9/9/2026 13:17",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (6 of 8)",
+        "Issue key": "CSPAYWEB-5233",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:18",
+        "Updated": "9/9/2026 13:16",
+        "Resolved": "9/9/2026 13:16",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (5 of 8)",
+        "Issue key": "CSPAYWEB-5232",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:07",
+        "Updated": "9/9/2026 13:16",
+        "Resolved": "9/9/2026 13:16",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (4 of 8)",
+        "Issue key": "CSPAYWEB-5231",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:06",
+        "Updated": "9/9/2026 13:16",
+        "Resolved": "9/9/2026 13:16",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (3 of 8)",
+        "Issue key": "CSPAYWEB-5230",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:04",
+        "Updated": "9/9/2026 13:16",
+        "Resolved": "9/9/2026 13:16",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (2 of 8)",
+        "Issue key": "CSPAYWEB-5229",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:03",
+        "Updated": "9/9/2026 13:15",
+        "Resolved": "9/9/2026 13:15",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (1 of 8)",
+        "Issue key": "CSPAYWEB-5228",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:02",
+        "Updated": "9/9/2026 13:15",
+        "Resolved": "9/9/2026 13:15",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual Aid Update Required: CCC Service Delivery Change (including 8 sub-tickets)",
+        "Issue key": "CSPAYWEB-5227",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 15:00",
+        "Updated": "9/14/2026 14:44",
+        "Resolved": "9/14/2026 14:44",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "FW: Les nouvelles communications sur le systÃ¨me de paye sont disponibles | New pay system communications are available",
+        "Issue key": "CSPAYWEB-5224",
+        "Priority": "Urgent",
+        "Created": "9/3/2026 13:26",
+        "Updated": "9/3/2026 13:41",
+        "Resolved": "9/3/2026 13:41",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Employee guide- New updates ",
+        "Issue key": "CSPAYWEB-5223",
+        "Priority": "Medium",
+        "Created": "9/3/2026 10:25",
+        "Updated": "9/14/2026 9:16",
+        "Resolved": "9/14/2026 9:16",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Procedure Update Request - Transfer in and transfer out: Department and agency contacts",
+        "Issue key": "CSPAYWEB-5222",
+        "Priority": "Medium",
+        "Created": "9/3/2026 7:35",
+        "Updated": "9/10/2026 14:54",
+        "Resolved": "9/10/2026 14:54",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Update to existing notice: CCC delivery change (6/6)",
+        "Issue key": "CSPAYWEB-5219",
+        "Priority": "Medium",
+        "Created": "9/2/2026 14:48",
+        "Updated": "9/8/2026 10:28",
+        "Resolved": "9/8/2026 10:28",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Update to existing notice: CCC delivery change (5/6)",
+        "Issue key": "CSPAYWEB-5218",
+        "Priority": "Medium",
+        "Created": "9/2/2026 14:46",
+        "Updated": "9/9/2026 10:42",
+        "Resolved": "9/9/2026 10:42",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Update to existing notice: CCC delivery change (4/6)",
+        "Issue key": "CSPAYWEB-5217",
+        "Priority": "Medium",
+        "Created": "9/2/2026 14:45",
+        "Updated": "9/9/2026 10:41",
+        "Resolved": "9/9/2026 10:41",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Update to existing notice: CCC delivery change (3/6)",
+        "Issue key": "CSPAYWEB-5216",
+        "Priority": "Medium",
+        "Created": "9/2/2026 14:44",
+        "Updated": "9/9/2026 10:40",
+        "Resolved": "9/9/2026 10:40",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Update to existing notice: CCC delivery change (2/6)",
+        "Issue key": "CSPAYWEB-5215",
+        "Priority": "Medium",
+        "Created": "9/2/2026 14:40",
+        "Updated": "9/9/2026 10:39",
+        "Resolved": "9/9/2026 10:39",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Update to existing notice: CCC delivery change (1/6)",
+        "Issue key": "CSPAYWEB-5214",
+        "Priority": "Medium",
+        "Created": "9/2/2026 14:39",
+        "Updated": "9/9/2026 10:43",
+        "Resolved": "9/9/2026 10:43",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Request for dev link: Job Data: Paid leave of absence",
+        "Issue key": "CSPAYWEB-5211",
+        "Priority": "High",
+        "Created": "9/2/2026 13:19",
+        "Updated": "9/3/2026 15:43",
+        "Resolved": "9/3/2026 15:43",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Procedure Update Request - Transfer out: Integration to integration organization",
+        "Issue key": "CSPAYWEB-5210",
+        "Priority": "Medium",
+        "Created": "9/2/2026 11:46",
+        "Updated": "9/10/2026 11:40",
+        "Resolved": "9/10/2026 11:40",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Request for Dev : CAN-Pension Plans: Change from non-contributor to contributor",
+        "Issue key": "CSPAYWEB-5209",
+        "Priority": "Urgent",
+        "Created": "9/2/2026 9:09",
+        "Updated": "9/4/2026 11:59",
+        "Resolved": "9/4/2026 11:59",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Broken link - Understanding record of employment processing",
+        "Issue key": "CSPAYWEB-5208",
+        "Priority": "Medium",
+        "Created": "9/1/2026 14:43",
+        "Updated": "9/11/2026 13:10",
+        "Resolved": "9/11/2026 13:10",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Request for Graphic Design Support â Urgent Presentations",
+        "Issue key": "CSPAYWEB-5207",
+        "Priority": "Urgent",
+        "Created": "9/1/2026 14:39",
+        "Updated": "9/2/2026 13:50",
+        "Resolved": "9/2/2026 13:50",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Visual aids - PDF update",
+        "Issue key": "CSPAYWEB-5205",
+        "Priority": "Medium",
+        "Created": "9/1/2026 13:19",
+        "Updated": "9/9/2026 13:18",
+        "Resolved": "9/9/2026 13:18",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "index",
+        "Issue key": "CSPAYWEB-5204",
+        "Priority": "High",
+        "Created": "9/1/2026 10:59",
+        "Updated": "9/1/2026 16:42",
+        "Resolved": "9/1/2026 16:42",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Web request - missing notice from Tech Comms GCintranet webpage index",
+        "Issue key": "CSPAYWEB-5160",
+        "Priority": "High",
+        "Created": "8/31/2026 11:41",
+        "Updated": "9/11/2026 13:06",
+        "Resolved": "9/11/2026 13:06",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Update request - Pay, pension and human resources portal",
+        "Issue key": "CSPAYWEB-5158",
+        "Priority": "Urgent",
+        "Created": "8/28/2026 14:34",
+        "Updated": "9/11/2026 13:18",
+        "Resolved": "9/11/2026 13:18",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Graphic design request - CCC one pager",
+        "Issue key": "CSPAYWEB-5157",
+        "Priority": "Urgent",
+        "Created": "8/28/2026 10:36",
+        "Updated": "9/11/2026 8:45",
+        "Resolved": "9/11/2026 8:45",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Procedure Update Request - Maildrop for pay stub, paper cheques and tax slips",
+        "Issue key": "CSPAYWEB-5156",
+        "Priority": "Urgent",
+        "Created": "8/28/2026 9:42",
+        "Updated": "9/9/2026 10:12",
+        "Resolved": "9/9/2026 10:12",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FW: urgent - sabrina - PPT touchup",
+        "Issue key": "CSPAYWEB-5155",
+        "Priority": "Medium",
+        "Created": "8/28/2026 8:20",
+        "Updated": "8/28/2026 9:07",
+        "Resolved": "8/28/2026 9:02",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "CPP - Index page",
+        "Issue key": "CSPAYWEB-5154",
+        "Priority": "Urgent",
+        "Created": "8/27/2026 14:43",
+        "Updated": "8/27/2026 14:57",
+        "Resolved": "8/27/2026 14:57",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Request for Prod Comms Notice Edit - CWA ROE app decom",
+        "Issue key": "CSPAYWEB-5153",
+        "Priority": "High",
+        "Created": "8/27/2026 14:24",
+        "Updated": "9/10/2026 14:26",
+        "Resolved": "9/10/2026 14:26",
+        "Component/s": ""
+    },
+    {
+        "Summary": "CPP - Web labels",
+        "Issue key": "CSPAYWEB-5152",
+        "Priority": "Urgent",
+        "Created": "8/27/2026 13:59",
+        "Updated": "8/27/2026 14:39",
+        "Resolved": "8/27/2026 14:39",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "Web request - removal of tags from tax season toolbox webpage",
+        "Issue key": "CSPAYWEB-5151",
+        "Priority": "Urgent",
+        "Created": "8/27/2026 11:59",
+        "Updated": "8/27/2026 13:00",
+        "Resolved": "8/27/2026 13:00",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Procedure Update Request - Job codes",
+        "Issue key": "CSPAYWEB-5150",
+        "Priority": "Medium",
+        "Created": "8/27/2026 11:08",
+        "Updated": "9/14/2026 10:42",
+        "Resolved": "9/14/2026 10:42",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Public Service Management Insurance Plan â Propose exclusion***",
+        "Issue key": "CSPAYWEB-5149",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:55",
+        "Updated": "9/15/2026 11:06",
+        "Resolved": "9/15/2026 11:06",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Public Service Management Insurance Plan â Eligibility and application",
+        "Issue key": "CSPAYWEB-5148",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:54",
+        "Updated": "9/15/2026 11:05",
+        "Resolved": "9/15/2026 11:05",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Change of hours â Part-time to full-time",
+        "Issue key": "CSPAYWEB-5147",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:52",
+        "Updated": "9/15/2026 11:05",
+        "Resolved": "9/15/2026 11:05",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Termination of employment â Medical retirement approved by Health Canada â GIC",
+        "Issue key": "CSPAYWEB-5146",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:51",
+        "Updated": "9/15/2026 11:05",
+        "Resolved": "9/15/2026 11:05",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Termination of employment â Rejection on probation",
+        "Issue key": "CSPAYWEB-5145",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:50",
+        "Updated": "9/15/2026 11:04",
+        "Resolved": "9/15/2026 11:04",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Leave with income averaging",
+        "Issue key": "CSPAYWEB-5144",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:48",
+        "Updated": "9/15/2026 11:04",
+        "Resolved": "9/15/2026 11:04",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Termination of employment â Termination for cause for reason of incapacity pursuant to paragraph 12 (1)(e) of the FAA",
+        "Issue key": "CSPAYWEB-5143",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:27",
+        "Updated": "9/15/2026 11:03",
+        "Resolved": "9/15/2026 11:03",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired as ministerâs exempt staff â Non executive equivalent",
+        "Issue key": "CSPAYWEB-5142",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:26",
+        "Updated": "9/8/2026 9:16",
+        "Resolved": "9/8/2026 9:16",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Return to work following seasonal lay-off",
+        "Issue key": "CSPAYWEB-5141",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:25",
+        "Updated": "9/15/2026 11:02",
+        "Resolved": "9/15/2026 11:02",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Return From Leave ",
+        "Issue key": "CSPAYWEB-5140",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:23",
+        "Updated": "9/15/2026 11:02",
+        "Resolved": "9/15/2026 11:02",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired for an indeterminate period",
+        "Issue key": "CSPAYWEB-5139",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:22",
+        "Updated": "9/15/2026 11:01",
+        "Resolved": "9/15/2026 11:01",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired for a period of more than 6 months",
+        "Issue key": "CSPAYWEB-5138",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:21",
+        "Updated": "9/15/2026 11:01",
+        "Resolved": "9/15/2026 11:01",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired for a period of more than 3 months but less than 6 months",
+        "Issue key": "CSPAYWEB-5137",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:20",
+        "Updated": "9/15/2026 11:00",
+        "Resolved": "9/15/2026 11:00",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired for a period of less than 3 months",
+        "Issue key": "CSPAYWEB-5136",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:18",
+        "Updated": "9/15/2026 11:00",
+        "Resolved": "9/15/2026 11:00",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired as ministerâs exempt staff â Executive equivalent",
+        "Issue key": "CSPAYWEB-5135",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:15",
+        "Updated": "9/15/2026 10:59",
+        "Resolved": "9/15/2026 10:59",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired as casual for a period of 90 days",
+        "Issue key": "CSPAYWEB-5134",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:14",
+        "Updated": "9/15/2026 10:58",
+        "Resolved": "9/15/2026 10:58",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee hired as an executive ",
+        "Issue key": "CSPAYWEB-5133",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:13",
+        "Updated": "9/15/2026 10:58",
+        "Resolved": "9/15/2026 10:58",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request - Employee appointed by the Governor-in-Council appointee or Deputy Minister ",
+        "Issue key": "CSPAYWEB-5132",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:12",
+        "Updated": "9/15/2026 10:57",
+        "Resolved": "9/15/2026 10:57",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Updates to the Compensation letter templates page request",
+        "Issue key": "CSPAYWEB-5131",
+        "Priority": "Medium",
+        "Created": "8/27/2026 10:06",
+        "Updated": "9/8/2026 9:16",
+        "Resolved": "9/8/2026 9:16",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "Compensation letter templates clean up",
+        "Issue key": "CSPAYWEB-5130",
+        "Priority": "Urgent",
+        "Created": "8/27/2026 9:47",
+        "Updated": "8/27/2026 9:59",
+        "Resolved": "8/27/2026 9:59",
+        "Component/s": "Benefit Letters"
+    },
+    {
+        "Summary": "MyGCPay web label - August 27-28 & 29-30",
+        "Issue key": "CSPAYWEB-5129",
+        "Priority": "Urgent",
+        "Created": "8/27/2026 8:48",
+        "Updated": "8/31/2026 11:24",
+        "Resolved": "8/31/2026 11:24",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Web request - updates required to existing visual aids PDFs on GCintranet",
+        "Issue key": "CSPAYWEB-5128",
+        "Priority": "Urgent",
+        "Created": "8/26/2026 13:24",
+        "Updated": "8/27/2026 15:26",
+        "Resolved": "8/27/2026 15:26",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Web request - update to existing tax season related visual aid PDFs",
+        "Issue key": "CSPAYWEB-5127",
+        "Priority": "Urgent",
+        "Created": "8/26/2026 11:46",
+        "Updated": "8/27/2026 15:27",
+        "Resolved": "8/27/2026 15:27",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Web sweep - CPP on visual aids pages",
+        "Issue key": "CSPAYWEB-5126",
+        "Priority": "Medium",
+        "Created": "8/26/2026 11:03",
+        "Updated": "8/27/2026 13:55",
+        "Resolved": "8/27/2026 13:55",
+        "Component/s": "Sweep"
+    },
+    {
+        "Summary": "Important - Upload the filterable list",
+        "Issue key": "CSPAYWEB-5125",
+        "Priority": "High",
+        "Created": "8/26/2026 10:48",
+        "Updated": "8/26/2026 13:23",
+        "Resolved": "8/26/2026 13:23",
+        "Component/s": ""
+    },
+    {
+        "Summary": "RE: JIRA #4217 Go LIVE request : Activity checklist after a salary revision and mass retro - Effective November 29, 2025",
+        "Issue key": "CSPAYWEB-5124",
+        "Priority": "Medium",
+        "Created": "8/25/2026 11:49",
+        "Updated": "8/26/2026 11:39",
+        "Resolved": "8/26/2026 11:39",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR DELETION - GCintranet notice - CWA to CPP name change",
+        "Issue key": "CSPAYWEB-5123",
+        "Priority": "High",
+        "Created": "8/25/2026 9:55",
+        "Updated": "8/25/2026 13:17",
+        "Resolved": "8/25/2026 13:17",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Sandbox Request - Recovery of overpayment hand-off-package",
+        "Issue key": "CSPAYWEB-5121",
+        "Priority": "Medium",
+        "Created": "8/24/2026 14:45",
+        "Updated": "9/9/2026 10:45",
+        "Resolved": "9/9/2026 10:45",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "CPP - Mass Find & Replace",
+        "Issue key": "CSPAYWEB-5120",
+        "Priority": "Medium",
+        "Created": "8/24/2026 13:07",
+        "Updated": "9/3/2026 13:35",
+        "Resolved": "9/3/2026 13:35",
+        "Component/s": "CWA"
+    },
+    {
+        "Summary": "CPP - For action: CPP page renaming (Tech-Comm)",
+        "Issue key": "CSPAYWEB-5119",
+        "Priority": "High",
+        "Created": "8/24/2026 11:54",
+        "Updated": "8/27/2026 14:56",
+        "Resolved": "8/27/2026 14:56",
+        "Component/s": ""
+    },
+    {
+        "Summary": "URGENT - web label for coding",
+        "Issue key": "CSPAYWEB-5117",
+        "Priority": "Urgent",
+        "Created": "8/24/2026 9:17",
+        "Updated": "8/25/2026 9:38",
+        "Resolved": "8/25/2026 9:38",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Web request: Compensation and pension portal web label for development - ROE Application Decom",
+        "Issue key": "CSPAYWEB-5116",
+        "Priority": "High",
+        "Created": "8/24/2026 8:21",
+        "Updated": "9/11/2026 12:04",
+        "Resolved": "9/11/2026 12:04",
+        "Component/s": "Compensation Directives"
+    },
+    {
+        "Summary": "GCIntranet update",
+        "Issue key": "CSPAYWEB-5115",
+        "Priority": "Medium",
+        "Created": "8/24/2026 7:48",
+        "Updated": "9/11/2026 11:58",
+        "Resolved": "9/11/2026 11:58",
+        "Component/s": ""
+    },
+    {
+        "Summary": "Procedure Update Request - Understanding record of employment processing",
+        "Issue key": "CSPAYWEB-5113",
+        "Priority": "High",
+        "Created": "8/21/2026 14:34",
+        "Updated": "8/31/2026 12:21",
+        "Resolved": "8/31/2026 12:21",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR CODING (Migration): Public Service Management Insurance Plan calculator",
+        "Issue key": "CSPAYWEB-5110",
+        "Priority": "Urgent",
+        "Created": "8/19/2026 9:57",
+        "Updated": "8/31/2026 10:06",
+        "Resolved": "8/31/2026 10:06",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR CODING: Pensionable LWOP Limits Calculator",
+        "Issue key": "CSPAYWEB-5109",
+        "Priority": "High",
+        "Created": "8/18/2026 14:28",
+        "Updated": "9/2/2026 9:18",
+        "Resolved": "9/2/2026 9:18",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "FOR WEB | TECHNICAL COMMUNICATIONS - Bundle #19",
+        "Issue key": "CSPAYWEB-5108",
+        "Priority": "Urgent",
+        "Created": "8/18/2026 13:26",
+        "Updated": "8/19/2026 14:50",
+        "Resolved": "8/19/2026 14:50",
+        "Component/s": ""
+    },
+    {
+        "Summary": "FOR CODING (Migration): Continuous Employment Calculator",
+        "Issue key": "CSPAYWEB-5107",
+        "Priority": "High",
+        "Created": "8/18/2026 10:04",
+        "Updated": "8/20/2026 10:49",
+        "Resolved": "8/20/2026 10:49",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "URGENT - CR18553 - Phoenix business user roles, pages and menu paths",
+        "Issue key": "CSPAYWEB-5106",
+        "Priority": "Urgent",
+        "Created": "8/18/2026 8:04",
+        "Updated": "8/21/2026 10:00",
+        "Resolved": "8/21/2026 10:00",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Internet Website - Minor Edits",
+        "Issue key": "CSPAYWEB-5105",
+        "Priority": "Medium",
+        "Created": "8/18/2026 7:45",
+        "Updated": "8/20/2026 12:09",
+        "Resolved": "8/20/2026 11:23",
+        "Component/s": ""
+    },
+    {
+        "Summary": "PPIM - GO LIVE",
+        "Issue key": "CSPAYWEB-5104",
+        "Priority": "High",
+        "Created": "8/17/2026 15:11",
+        "Updated": "8/18/2026 14:34",
+        "Resolved": "8/18/2026 14:34",
+        "Component/s": "PPIM"
+    },
+    {
+        "Summary": "For Web: Coding - Notice compensation manuals migration",
+        "Issue key": "CSPAYWEB-5103",
+        "Priority": "Urgent",
+        "Created": "8/17/2026 13:29",
+        "Updated": "8/18/2026 14:26",
+        "Resolved": "8/18/2026 14:26",
+        "Component/s": ""
+    },
+    {
+        "Summary": "TR: Aug 22-23 Service Interruption - Web alert",
+        "Issue key": "CSPAYWEB-5102",
+        "Priority": "High",
+        "Created": "8/17/2026 11:02",
+        "Updated": "8/24/2026 7:45",
+        "Resolved": "8/24/2026 7:45",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Update for the existing VAs - TR: Visual Aids - Instructions for completion of Annex B",
+        "Issue key": "CSPAYWEB-5100",
+        "Priority": "Medium",
+        "Created": "8/14/2026 11:50",
+        "Updated": "8/21/2026 13:40",
+        "Resolved": "8/21/2026 13:40",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Sweep request: CCC - GCPedia",
+        "Issue key": "CSPAYWEB-5097",
+        "Priority": "Urgent",
+        "Created": "8/12/2026 13:09",
+        "Updated": "9/21/2026 14:43",
+        "Resolved": "9/21/2026 14:43",
+        "Component/s": "Sweep"
+    },
+    {
+        "Summary": "DG ISS Welcome Page Image Update",
+        "Issue key": "CSPAYWEB-5096",
+        "Priority": "High",
+        "Created": "8/12/2026 11:45",
+        "Updated": "8/25/2026 14:31",
+        "Resolved": "8/24/2026 14:33",
+        "Component/s": "Graphic Design"
+    },
+    {
+        "Summary": "Sweep request: CCC - MySource",
+        "Issue key": "CSPAYWEB-5094",
+        "Priority": "Urgent",
+        "Created": "8/12/2026 11:02",
+        "Updated": "9/14/2026 9:22",
+        "Resolved": "9/14/2026 9:22",
+        "Component/s": "Sweep"
+    },
+    {
+        "Summary": "Update Dev link request : Mass salary revision processing activities â Effective November 29, 2025",
+        "Issue key": "CSPAYWEB-5093",
+        "Priority": "Medium",
+        "Created": "8/12/2026 9:29",
+        "Updated": "8/25/2026 9:19",
+        "Resolved": "8/25/2026 9:18",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Dev link request : Mass salary revision exception messages - Effective November 29,2025",
+        "Issue key": "CSPAYWEB-5092",
+        "Priority": "Medium",
+        "Created": "8/12/2026 9:25",
+        "Updated": "8/25/2026 9:20",
+        "Resolved": "8/25/2026 9:20",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Procedure Update Request - Processing maternity, parental, and caregiving leave overview",
+        "Issue key": "CSPAYWEB-5091",
+        "Priority": "Medium",
+        "Created": "8/12/2026 8:10",
+        "Updated": "8/26/2026 10:49",
+        "Resolved": "8/26/2026 10:49",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Procedure Update Request - Transfer in and transfer out: Department and agency contacts",
+        "Issue key": "CSPAYWEB-5090",
+        "Priority": "Medium",
+        "Created": "8/12/2026 7:38",
+        "Updated": "8/19/2026 9:16",
+        "Resolved": "8/19/2026 9:16",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "RE: JIRA#4731 FOR CODING (Migration): Salary exclusions",
+        "Issue key": "CSPAYWEB-5089",
+        "Priority": "Medium",
+        "Created": "8/11/2026 14:58",
+        "Updated": "8/12/2026 9:02",
+        "Resolved": "8/12/2026 9:02",
+        "Component/s": ""
+    },
+    {
+        "Summary": "New updates to filterable list",
+        "Issue key": "CSPAYWEB-5087",
+        "Priority": "Medium",
+        "Created": "8/11/2026 10:15",
+        "Updated": "8/11/2026 13:32",
+        "Resolved": "8/11/2026 13:32",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "RE: JIRA#5075 - RE: GO LIVE: JIRA #4723 FOR CODNG (Migration) : Manual pay equity interest calculation tool",
+        "Issue key": "CSPAYWEB-5086",
+        "Priority": "Medium",
+        "Created": "8/11/2026 7:42",
+        "Updated": "8/11/2026 9:02",
+        "Resolved": "8/11/2026 9:02",
+        "Component/s": "Procedures"
+    },
+    {
         "Summary": "Filterable list update (CR18553)",
         "Issue key": "CSPAYWEB-5085",
         "Priority": "Urgent",
@@ -15,6 +1563,15 @@
         "Created": "8/10/2026 10:24",
         "Updated": "8/10/2026 13:11",
         "Resolved": "8/10/2026 13:11",
+        "Component/s": "Procedures"
+    },
+    {
+        "Summary": "Procedure update request - Salary plan",
+        "Issue key": "CSPAYWEB-5083",
+        "Priority": "High",
+        "Created": "8/10/2026 9:46",
+        "Updated": "9/9/2026 12:24",
+        "Resolved": "9/9/2026 12:24",
         "Component/s": "Procedures"
     },
     {
@@ -43,6 +1600,15 @@
         "Updated": "8/10/2026 10:55",
         "Resolved": "8/10/2026 10:55",
         "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "Sandbox publication removal request : Section 33 Time and Labour Transactions Current On/Off Cycle report",
+        "Issue key": "CSPAYWEB-5078",
+        "Priority": "Urgent",
+        "Created": "8/7/2026 10:22",
+        "Updated": "9/22/2026 14:15",
+        "Resolved": "9/22/2026 14:15",
+        "Component/s": "Sandbox"
     },
     {
         "Summary": "Sandbox publication removal request : Section 33 Time and Labour Transactions Approved by Section 34 Managers",
@@ -79,6 +1645,24 @@
         "Updated": "8/5/2026 15:18",
         "Resolved": "8/5/2026 15:16",
         "Component/s": "Pay Calendars"
+    },
+    {
+        "Summary": "Who to contact page changes",
+        "Issue key": "CSPAYWEB-5072",
+        "Priority": "Medium",
+        "Created": "8/5/2026 12:27",
+        "Updated": "8/27/2026 14:37",
+        "Resolved": "8/27/2026 14:37",
+        "Component/s": "Tech Comms"
+    },
+    {
+        "Summary": "July Infographic",
+        "Issue key": "CSPAYWEB-5071",
+        "Priority": "Medium",
+        "Created": "8/5/2026 9:46",
+        "Updated": "8/26/2026 8:48",
+        "Resolved": "8/26/2026 8:48",
+        "Component/s": "Graphic Design"
     },
     {
         "Summary": "Transfer in and transfer out - Department and agency rollout dates",
